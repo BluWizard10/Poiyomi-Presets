@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon Gradient & Rim
+  m_Name: Cartoon Style
   m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH
-    _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
+    _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -18,8 +18,6 @@ Material:
   stringTagMap:
     RenderType: Opaque
     _DisableDirectionalInAdd_isPreset: true
-    _EnableRimLighting_isPreset: true
-    _Is_NormalMapToRimLight_isPreset: true
     _LightingAdditiveCastedShadows_isPreset: true
     _LightingAdditiveEnable_isPreset: true
     _LightingAdditiveGradientEnd_isPreset: true
@@ -36,7 +34,6 @@ Material:
     _LightingDirectionMode_isPreset: true
     _LightingForceColorEnabled_isPreset: true
     _LightingIgnoreAmbientColor_isPreset: true
-    _LightingIndirectUsesNormals_isPreset: true
     _LightingMapMode_isPreset: true
     _LightingMinLightBrightness_isPreset: true
     _LightingMode_isPreset: true
@@ -44,24 +41,6 @@ Material:
     _LightingMulitlayerNonLinear_isPreset: true
     _LightingVertexLightingEnabled_isPreset: true
     _MultilayerMathBlurMap_isPreset: true
-    _RimApplyGlobalMaskIndex_isPreset: true
-    _RimBaseColorMix_isPreset: true
-    _RimBlendMode_isPreset: true
-    _RimBlendStrength_isPreset: true
-    _RimBrightness_isPreset: true
-    _RimClamp_isPreset: true
-    _RimGlobalMask_isPreset: true
-    _RimHueShiftEnabled_isPreset: true
-    _RimLightColor_isPreset: true
-    _RimLightingInvert_isPreset: true
-    _RimMask_isPreset: true
-    _RimPower_isPreset: true
-    _RimShadowToggle_isPreset: true
-    _RimSharpness_isPreset: true
-    _RimStrength_isPreset: true
-    _RimStyle_isPreset: true
-    _RimTex_isPreset: true
-    _RimWidth_isPreset: true
     _ShadingEnabled_isPreset: true
     _Shadow2ndBlur_isPreset: true
     _Shadow2ndBorder_isPreset: true
@@ -83,7 +62,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Shading/Toon Gradient with Rim
+    presetName: BluWizard's Presets/Shading/Cartoon Style
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -1264,7 +1243,7 @@ Material:
     - _EnableMirrorOptions: 0
     - _EnablePathing: 0
     - _EnableRim2Lighting: 0
-    - _EnableRimLighting: 1
+    - _EnableRimLighting: 0
     - _EnableTouchGlow: 0
     - _EnableUDIMDiscardOptions: 0
     - _EnableVolumeColor: 0
@@ -1676,8 +1655,8 @@ Material:
     - _LightingAdditiveCastedShadows: 1
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
-    - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 7
+    - _LightingAdditiveGradientStart: 0.4
+    - _LightingAdditiveLimit: 8
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0
@@ -1685,20 +1664,20 @@ Material:
     - _LightingCap: 2
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
-    - _LightingColorMode: 0
+    - _LightingColorMode: 3
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
     - _LightingDetailShadowStrengthA: 0
     - _LightingDetailShadowStrengthB: 0
     - _LightingDetailShadowStrengthG: 0
     - _LightingDetailShadowStrengthR: 1
-    - _LightingDirectionMode: 0
+    - _LightingDirectionMode: 4
     - _LightingForceColorEnabled: 0
     - _LightingForcedColorThemeIndex: 0
     - _LightingGradientEnd: 0.5
     - _LightingGradientStart: 0
     - _LightingIgnoreAmbientColor: 0.2
-    - _LightingIndirectUsesNormals: 1
+    - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
     - _LightingMode: 1
@@ -2119,8 +2098,8 @@ Material:
     - _RimBackfaceMask: 1
     - _RimBaseColorMix: 0
     - _RimBiasIntensity: 0
-    - _RimBlendMode: 2
-    - _RimBlendStrength: 0.5
+    - _RimBlendMode: 0
+    - _RimBlendStrength: 1
     - _RimBlur: 0.65
     - _RimBorder: 0.5
     - _RimBrightness: 1
@@ -2162,7 +2141,7 @@ Material:
     - _RimShadowMaskStrength: 1
     - _RimShadowToggle: 0
     - _RimShadowWidth: 0
-    - _RimSharpness: 0
+    - _RimSharpness: 0.25
     - _RimStrength: 0
     - _RimStyle: 0
     - _RimTexUV: 0
@@ -2202,14 +2181,14 @@ Material:
     - _Shadow3rdBorder: 0.25
     - _Shadow3rdColorTexUV: 0
     - _Shadow3rdReceive: 0
-    - _ShadowBlur: 1
-    - _ShadowBorder: 0.5
+    - _ShadowBlur: 0.1
+    - _ShadowBorder: 0.368
     - _ShadowBorderRange: 0
     - _ShadowColorTexUV: 0
-    - _ShadowMainStrength: 0.5
+    - _ShadowMainStrength: 0.2
     - _ShadowOffset: 0
     - _ShadowReceive: 0
-    - _ShadowStrength: 0.9
+    - _ShadowStrength: 0.7
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
@@ -2588,7 +2567,7 @@ Material:
     - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_postprocessing: 0
-    - m_renderingCategory: 1
+    - m_renderingCategory: 0
     - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
@@ -2708,7 +2687,7 @@ Material:
     - m_start_reflectionRim: 0
     - m_start_rgbanormals: 0
     - m_start_rim2LightOptions: 0
-    - m_start_rimLight1Options: 1
+    - m_start_rimLight1Options: 0
     - m_start_stylizedSpec: 0
     - m_start_subsurfaceScattering: 0
     - m_start_udimdiscardOptions: 0
@@ -3049,7 +3028,7 @@ Material:
     - _RimColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimEnviroMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimIndirColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimLightColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _RimShadowAlpha: {r: 0, g: 0, b: 0, a: 1}
     - _RimTexPan: {r: 0, g: 0, b: 0, a: 0}

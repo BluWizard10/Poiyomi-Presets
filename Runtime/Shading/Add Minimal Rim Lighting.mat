@@ -7,43 +7,18 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon Gradient & Rim
+  m_Name: Add Minimal Rim Lighting
   m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_MULTILAYER_MATH
-    _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+  m_ShaderKeywords: VIGNETTE_MASKED _GLOSSYREFLECTIONS_OFF _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
+    _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-    _DisableDirectionalInAdd_isPreset: true
     _EnableRimLighting_isPreset: true
     _Is_NormalMapToRimLight_isPreset: true
-    _LightingAdditiveCastedShadows_isPreset: true
-    _LightingAdditiveEnable_isPreset: true
-    _LightingAdditiveGradientEnd_isPreset: true
-    _LightingAdditiveGradientStart_isPreset: true
-    _LightingAdditiveLimit_isPreset: true
-    _LightingAdditiveLimited_isPreset: true
-    _LightingAdditiveMonochromatic_isPreset: true
-    _LightingAdditivePassthrough_isPreset: true
-    _LightingAdditiveType_isPreset: true
-    _LightingCapEnabled_isPreset: true
-    _LightingCap_isPreset: true
-    _LightingCastedShadows_isPreset: true
-    _LightingColorMode_isPreset: true
-    _LightingDirectionMode_isPreset: true
-    _LightingForceColorEnabled_isPreset: true
-    _LightingIgnoreAmbientColor_isPreset: true
-    _LightingIndirectUsesNormals_isPreset: true
-    _LightingMapMode_isPreset: true
-    _LightingMinLightBrightness_isPreset: true
-    _LightingMode_isPreset: true
-    _LightingMonochromatic_isPreset: true
-    _LightingMulitlayerNonLinear_isPreset: true
-    _LightingVertexLightingEnabled_isPreset: true
-    _MultilayerMathBlurMap_isPreset: true
     _RimApplyGlobalMaskIndex_isPreset: true
     _RimBaseColorMix_isPreset: true
     _RimBlendMode_isPreset: true
@@ -62,28 +37,8 @@ Material:
     _RimStyle_isPreset: true
     _RimTex_isPreset: true
     _RimWidth_isPreset: true
-    _ShadingEnabled_isPreset: true
-    _Shadow2ndBlur_isPreset: true
-    _Shadow2ndBorder_isPreset: true
-    _Shadow2ndColorTex_isPreset: true
-    _Shadow2ndColor_isPreset: true
-    _Shadow2ndReceive_isPreset: true
-    _Shadow3rdBlur_isPreset: true
-    _Shadow3rdBorder_isPreset: true
-    _Shadow3rdColorTex_isPreset: true
-    _Shadow3rdColor_isPreset: true
-    _Shadow3rdReceive_isPreset: true
-    _ShadowBlur_isPreset: true
-    _ShadowBorderColor_isPreset: true
-    _ShadowBorderRange_isPreset: true
-    _ShadowBorder_isPreset: true
-    _ShadowColorTex_isPreset: true
-    _ShadowColor_isPreset: true
-    _ShadowMainStrength_isPreset: true
-    _ShadowReceive_isPreset: true
-    _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Shading/Toon Gradient with Rim
+    presetName: BluWizard's Presets/Shading/Add Minimal Rim Lighting
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -1701,7 +1656,7 @@ Material:
     - _LightingIndirectUsesNormals: 1
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
-    - _LightingMode: 1
+    - _LightingMode: 5
     - _LightingMonochromatic: 0.5
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
@@ -2585,10 +2540,10 @@ Material:
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 1
+    - m_mainCategory: 0
     - m_modifierCategory: 0
     - m_postprocessing: 0
-    - m_renderingCategory: 1
+    - m_renderingCategory: 0
     - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
@@ -2654,8 +2609,8 @@ Material:
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
     - m_start_PathAudioLink: 0
-    - m_start_PoiLightData: 1
-    - m_start_PoiShading: 1
+    - m_start_PoiLightData: 0
+    - m_start_PoiShading: 0
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0

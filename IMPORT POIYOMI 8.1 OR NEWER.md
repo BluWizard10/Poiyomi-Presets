@@ -1,0 +1,1 @@
+To import Poiyomi Toon Shader, refer to the Official Website for instructions: https://www.poiyomi.com/
