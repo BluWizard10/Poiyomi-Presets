@@ -1,0 +1,16 @@
+{
+  "name": "net.bluwizard.poipresets",
+  "displayName": "Blu's Poiyomi Presets",
+  "version": "0.9.0",
+  "description": "Collection of Material Presets for Poiyomi Toon Shader.",
+  "gitDependencies": {},
+  "vpmDependencies": {},
+  "author": {
+    "name": "BluWizard",
+    "email": "17975114+BluWizard10@users.noreply.github.com",
+    "url": ""
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "R:\\Rayfield Documents\\VCC Rayfield\\BluSDK\\Packages\\net.bluwizard.poipresets"
+}

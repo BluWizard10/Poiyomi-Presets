@@ -1,0 +1,14 @@
+{
+  "name": "net.bluwizard.poipresets.Editor",
+  "references": [
+    "net.bluwizard.poipresets"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "defineConstraints": [],
+  "optionalUnityReferences": []
+}
