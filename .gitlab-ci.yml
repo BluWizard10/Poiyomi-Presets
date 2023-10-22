@@ -2,8 +2,7 @@ image: alpine:latest
 
 variables:
   FILE_NAME: net.bluwizard.poipresets_${CI_COMMIT_TAG}
-  RELEASE_DESCRIPTION: |
-    ### Collection of Material Presets for Poiyomi Toon Shader.
+
 stages:
   - deploy
 
