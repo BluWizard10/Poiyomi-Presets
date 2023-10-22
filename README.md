@@ -1,5 +1,7 @@
 ![Header Image](/Blu-Poiyomi-Presets-Header-Image.png)
 
+# [📦 Install VPM for VCC](https://vpm.bluwizard.net/)
+
 # BluWizard's Collection of Poiyomi Presets
 
 This VPM Community Repository is a neat collection of Presets made for Poiyomi Toon Shader, a widely popular Shader used in VRChat. You can use these to help further customize your Avatar to make it as good as you want it to be!
