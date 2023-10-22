@@ -32,6 +32,8 @@ zip-asset:
     - ASSET_URL=${PROJECT_URL}$(jq -r '.url' uploaded.json)
     - echo "Asset URL - $ASSET_URL"
     - |
+      curl -# --request DELETE --header "PRIVATE-TOKEN: ${CI_PRIVATE_TOKEN}" "${PROJECT_API_URL}/releases/${CI_COMMIT_TAG}"
+    - |
       release-cli create --name "Release for ${CI_COMMIT_TAG}" \
         --tag-name ${CI_COMMIT_TAG} \
         --description "${RELEASE_DESCRIPTION}" \
