@@ -7,27 +7,41 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Emission Sweet Spot
+  m_Name: AudioLink Basic Dissolve
   m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
-    _STOCHASTICMODE_DELIOT_HEITZ
+  m_ShaderKeywords: DISTORT POI_AUDIOLINK VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
+    _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-    _EmissionColor1_isPreset: true
-    _EmissionColor2_isPreset: true
-    _EmissionColor3_isPreset: true
-    _EmissionColor_isPreset: true
-    _EmissionStrength1_isPreset: true
-    _EmissionStrength2_isPreset: true
-    _EmissionStrength3_isPreset: true
-    _EmissionStrength_isPreset: true
-    _PPEmissionMultiplier_isPreset: true
+    _AudioLinkAnimToggle_isPreset: true
+    _AudioLinkDissolveAlphaBand_isPreset: true
+    _AudioLinkDissolveAlpha_isPreset: true
+    _AudioLinkDissolveDetailBand_isPreset: true
+    _AudioLinkDissolveDetail_isPreset: true
+    _ContinuousDissolve_isPreset: true
+    _DissolveAlpha_isPreset: true
+    _DissolveDetailEdgeSmoothing_isPreset: true
+    _DissolveDetailStrength_isPreset: true
+    _DissolveEdgeColor_isPreset: true
+    _DissolveEdgeEmission_isPreset: true
+    _DissolveEdgeHardness_isPreset: true
+    _DissolveEndPoint_isPreset: true
+    _DissolveP2PClamp_isPreset: true
+    _DissolveP2PEdgeLength_isPreset: true
+    _DissolveP2PWorldLocal_isPreset: true
+    _DissolveStartPoint_isPreset: true
+    _DissolveTextureColor_isPreset: true
+    _DissolveToEmissionStrength_isPreset: true
+    _DissolveType_isPreset: true
+    _EnableAudioLink_isPreset: true
+    _EnableDissolveAudioLink_isPreset: true
+    _EnableDissolve_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Special FX/Emission/Glowy Sweet Spot
+    presetName: BluWizard's Presets/AudioLink/Basic Dissolve
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -1032,9 +1046,9 @@ Material:
     - _DissolveAlpha9: 0
     - _DissolveDetailEdgeSmoothing: 0
     - _DissolveDetailNoiseUV: 0
-    - _DissolveDetailStrength: 0.1
+    - _DissolveDetailStrength: 0.2
     - _DissolveEdgeColorThemeIndex: 0
-    - _DissolveEdgeEmission: 0
+    - _DissolveEdgeEmission: 3
     - _DissolveEdgeHardness: 0.5
     - _DissolveEdgeHueShift: 0
     - _DissolveEdgeHueShiftEnabled: 0
@@ -1050,13 +1064,13 @@ Material:
     - _DissolveMaskInvert: 0
     - _DissolveMaskUV: 0
     - _DissolveNoiseTextureUV: 0
-    - _DissolveP2PClamp: 0
+    - _DissolveP2PClamp: 1
     - _DissolveP2PEdgeLength: 0.1
     - _DissolveP2PWorldLocal: 0
     - _DissolveTextureColorThemeIndex: 0
-    - _DissolveToEmissionStrength: 0
+    - _DissolveToEmissionStrength: 3
     - _DissolveToTextureUV: 0
-    - _DissolveType: 1
+    - _DissolveType: 2
     - _DissolveUseVertexColors: 0
     - _DistortionFlowTexture1UV: 0
     - _DistortionFlowTextureUV: 0
@@ -1157,10 +1171,10 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 1.4
-    - _EmissionStrength1: 1.4
-    - _EmissionStrength2: 1.4
-    - _EmissionStrength3: 1.4
+    - _EmissionStrength: 0
+    - _EmissionStrength1: 0
+    - _EmissionStrength2: 0
+    - _EmissionStrength3: 0
     - _EmissiveBlink_Max: 1
     - _EmissiveBlink_Max1: 1
     - _EmissiveBlink_Max2: 1
@@ -1187,11 +1201,11 @@ Material:
     - _EmissiveScroll_Width3: 10
     - _EnableALDecal: 0
     - _EnableAniso: 0
-    - _EnableAudioLink: 0
+    - _EnableAudioLink: 1
     - _EnableDepthBulge: 0
     - _EnableDepthRimLighting: 0
-    - _EnableDissolve: 0
-    - _EnableDissolveAudioLink: 0
+    - _EnableDissolve: 1
+    - _EnableDissolveAudioLink: 1
     - _EnableDistortion: 0
     - _EnableDistortionAudioLink: 0
     - _EnableEmission: 0
@@ -1871,7 +1885,7 @@ Material:
     - _PBRSplitMaskStochastic: 0
     - _PPBrightness: 1
     - _PPContrast: 1
-    - _PPEmissionMultiplier: 1.4
+    - _PPEmissionMultiplier: 1
     - _PPFinalColorMultiplier: 1
     - _PPHDR: 0
     - _PPHelp: 0
@@ -2531,7 +2545,7 @@ Material:
     - m_lightingCategory: 0
     - m_mainCategory: 0
     - m_modifierCategory: 0
-    - m_postprocessing: 1
+    - m_postprocessing: 0
     - m_renderingCategory: 0
     - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
@@ -2598,7 +2612,7 @@ Material:
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
     - m_start_PathAudioLink: 0
-    - m_start_PoiLightData: 1
+    - m_start_PoiLightData: 0
     - m_start_PoiShading: 0
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
@@ -2621,7 +2635,7 @@ Material:
     - m_start_UVTileDissolveRow3: 0
     - m_start_VideoSettings: 0
     - m_start_alphaBlending: 0
-    - m_start_audioLink: 0
+    - m_start_audioLink: 1
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
@@ -2633,12 +2647,12 @@ Material:
     - m_start_clearcoatglobalmask: 0
     - m_start_depthFX: 0
     - m_start_depthRimLightOptions: 0
-    - m_start_dissolve: 0
+    - m_start_dissolve: 1
     - m_start_dissolveHueShift: 0
-    - m_start_emission1Options: 1
-    - m_start_emission2Options: 1
-    - m_start_emission3Options: 1
-    - m_start_emissionOptions: 1
+    - m_start_emission1Options: 0
+    - m_start_emission2Options: 0
+    - m_start_emission3Options: 0
+    - m_start_emissionOptions: 0
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0
@@ -2647,7 +2661,7 @@ Material:
     - m_start_normalCorrect: 0
     - m_start_parallax: 0
     - m_start_pathing: 0
-    - m_start_pointToPoint: 0
+    - m_start_pointToPoint: 1
     - m_start_postprocess: 0
     - m_start_reflectionRim: 0
     - m_start_rgbanormals: 0
@@ -2719,7 +2733,7 @@ Material:
     - _AudioLinkDecal3Scale: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkDecal3SideMax: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkDecal3SideMin: {r: 0, g: 0, b: 0, a: 0}
-    - _AudioLinkDissolveAlpha: {r: 0, g: 0, b: 0, a: 0}
+    - _AudioLinkDissolveAlpha: {r: 0, g: 0.7, b: 0, a: 0}
     - _AudioLinkDissolveDetail: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkEmission0CenterOut: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkEmission1CenterOut: {r: 0, g: 0, b: 0, a: 0}
@@ -2800,12 +2814,12 @@ Material:
     - _DetailTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _DetailTint: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveDetailNoisePan: {r: 0, g: 0, b: 0, a: 0}
-    - _DissolveEdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveEdgeColor: {r: 0, g: 0.57254905, b: 0.8509804, a: 1}
     - _DissolveEndPoint: {r: 0, g: 1, b: 0, a: 0}
     - _DissolveMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveNoiseTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveStartPoint: {r: 0, g: -1, b: 0, a: 0}
-    - _DissolveTextureColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveTextureColor: {r: 0, g: 0.57254905, b: 0.8509804, a: 1}
     - _DissolveToTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionFlowTexture1Pan: {r: 0, g: 0, b: 0, a: 0}
     - _DistortionFlowTexturePan: {r: 0, g: 0, b: 0, a: 0}
@@ -2820,10 +2834,10 @@ Material:
     - _EmissionAL2StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL3Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL3StrengthMod: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 2, g: 2, b: 2, a: 1}
-    - _EmissionColor1: {r: 2, g: 2, b: 2, a: 1}
-    - _EmissionColor2: {r: 2, g: 2, b: 2, a: 1}
-    - _EmissionColor3: {r: 2, g: 2, b: 2, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor3: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionMap1Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMap2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMap3Pan: {r: 0, g: 0, b: 0, a: 0}
