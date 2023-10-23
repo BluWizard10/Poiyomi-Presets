@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  packageName: "com.bluwizard.source"
+  packageName: "com.bluwizard.poipresets"
 
 permissions:
   contents: write
