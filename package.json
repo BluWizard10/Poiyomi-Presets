@@ -1,7 +1,7 @@
 {
   "name": "net.bluwizard.poipresets",
   "displayName": "Blu's Poiyomi Presets",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Collection of Material Presets for Poiyomi Toon Shader.",
   "url": "https://gitlab.com/BluWizard10/poiyomi-presets.git",
   "gitDependencies": {},
