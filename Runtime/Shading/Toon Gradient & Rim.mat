@@ -22,8 +22,6 @@ Material:
     _Is_NormalMapToRimLight_isPreset: true
     _LightingAdditiveCastedShadows_isPreset: true
     _LightingAdditiveEnable_isPreset: true
-    _LightingAdditiveGradientEnd_isPreset: true
-    _LightingAdditiveGradientStart_isPreset: true
     _LightingAdditiveLimit_isPreset: true
     _LightingAdditiveLimited_isPreset: true
     _LightingAdditiveMonochromatic_isPreset: true
@@ -1681,7 +1679,7 @@ Material:
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0
-    - _LightingAdditiveType: 1
+    - _LightingAdditiveType: 3
     - _LightingCap: 2
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
@@ -1703,7 +1701,7 @@ Material:
     - _LightingMinLightBrightness: 0
     - _LightingMode: 1
     - _LightingMonochromatic: 0.5
-    - _LightingMulitlayerNonLinear: 1
+    - _LightingMulitlayerNonLinear: 0
     - _LightingShadowMaskStrengthA: 0
     - _LightingShadowMaskStrengthB: 0
     - _LightingShadowMaskStrengthG: 0

@@ -1,3 +1,8 @@
+## v1.2.2
+- Changed `Shading/Blu's Shading Setup` to reflect my latest settings.
+- Fixed `Shading/Faint Eye Reflection [Clear Coat]` from not having the correct Preset tags. It should work now!
+- Fixed incorrect properties on `Shading/Toon Gradient` Preset.
+
 ## v1.2.1
 - Added Glasses Refraction preset. best suited for glasses. Uses Poiyomi Grab Pass, so use it wisely!
 - Added a Preset enabling cool AudioLink Spectrum Bars. I think it looks wicked!

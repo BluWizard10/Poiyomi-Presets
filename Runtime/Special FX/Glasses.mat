@@ -22,6 +22,7 @@ Material:
     _AlphaForceOpaque_isPreset: true
     _AlphaMod_isPreset: true
     _AlphaPremultiply_isPreset: true
+    _DisableDirectionalInAdd_isPreset: true
     _EnableBlur_isPreset: true
     _EnableEnvironmentalRim_isPreset: true
     _EnableGrabpass_isPreset: true
@@ -29,9 +30,31 @@ Material:
     _GrabPassBlendFactor_isPreset: true
     _GrabPassUseAlpha_isPreset: true
     _GrabSrcBlend_isPreset: true
+    _IgnoreCastedShadows_isPreset: true
+    _LightingAdditiveCastedShadows_isPreset: true
+    _LightingAdditiveEnable_isPreset: true
+    _LightingAdditiveLimited_isPreset: true
+    _LightingAdditiveMonochromatic_isPreset: true
+    _LightingAdditivePassthrough_isPreset: true
+    _LightingAdditiveType_isPreset: true
+    _LightingCapEnabled_isPreset: true
+    _LightingCap_isPreset: true
+    _LightingCastedShadows_isPreset: true
+    _LightingColorMode_isPreset: true
+    _LightingDirectionMode_isPreset: true
+    _LightingForceColorEnabled_isPreset: true
+    _LightingIndirectUsesNormals_isPreset: true
+    _LightingMapMode_isPreset: true
+    _LightingMinLightBrightness_isPreset: true
+    _LightingMode_isPreset: true
+    _LightingMonochromatic_isPreset: true
+    _LightingShadowColor_isPreset: true
+    _LightingVertexLightingEnabled_isPreset: true
     _MochieBRDF_isPreset: true
     _MochieForceFallback_isPreset: true
+    _MochieGSAAEnabled_isPreset: true
     _MochieLitFallback_isPreset: true
+    _MochieMetallicMaps_isPreset: true
     _MochieMetallicMultiplier_isPreset: true
     _MochieReflCube_isPreset: true
     _MochieReflectionStrength_isPreset: true
@@ -40,16 +63,22 @@ Material:
     _MochieSpecularStrength_isPreset: true
     _MochieSpecularTint_isPreset: true
     _Mode_isPreset: true
+    _PBRNormalSelect_isPreset: true
     _PBRSplitMaskSample_isPreset: true
+    _PoiGSAAThreshold_isPreset: true
+    _PoiGSAAVariance_isPreset: true
+    _RefSpecFresnel_isPreset: true
     _RefractionChromaticAberattion_isPreset: true
     _RefractionEnabled_isPreset: true
     _RefractionFalloff_isPreset: true
     _RefractionIndex_isPreset: true
     _RimEnviroBlur_isPreset: true
     _RimEnviroIntensity_isPreset: true
+    _RimEnviroMask_isPreset: true
     _RimEnviroMinBrightness_isPreset: true
     _RimEnviroSharpness_isPreset: true
     _RimEnviroWidth_isPreset: true
+    _ShadingEnabled_isPreset: true
     _Specular2ndLayer_isPreset: true
     _ZWrite_isPreset: true
     isPreset: true

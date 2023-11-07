@@ -17,6 +17,22 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
+    _CCIgnoreCastedShadows_isPreset: true
+    _ClearCoatBRDF_isPreset: true
+    _ClearCoatFallback_isPreset: true
+    _ClearCoatForceFallback_isPreset: true
+    _ClearCoatGSAAEnabled_isPreset: true
+    _ClearCoatGSAAThreshold_isPreset: true
+    _ClearCoatGSAAVariance_isPreset: true
+    _ClearCoatLitFallback_isPreset: true
+    _ClearCoatNormalSelect_isPreset: true
+    _ClearCoatReflectionStrength_isPreset: true
+    _ClearCoatReflectionTint_isPreset: true
+    _ClearCoatSmoothness_isPreset: true
+    _ClearCoatSpecularStrength_isPreset: true
+    _ClearCoatSpecularTint_isPreset: true
+    _ClearCoatStrength_isPreset: true
+    _ClearcoatFresnel_isPreset: true
     isPreset: true
     presetName: BluWizard's Presets/Shading/Faint Eye Reflection [Clear Coat]
   disabledShaderPasses: []
@@ -2620,7 +2636,7 @@ Material:
     - m_start_brdfadvanced: 0
     - m_start_brdfglobalmask: 0
     - m_start_clearCoat: 1
-    - m_start_clearcoatadvanced: 0
+    - m_start_clearcoatadvanced: 1
     - m_start_clearcoatglobalmask: 0
     - m_start_depthFX: 0
     - m_start_depthRimLightOptions: 0
