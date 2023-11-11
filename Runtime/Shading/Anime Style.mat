@@ -1699,7 +1699,7 @@ Material:
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
     - _LightingMode: 1
-    - _LightingMonochromatic: 0
+    - _LightingMonochromatic: 0.5
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
     - _LightingShadowMaskStrengthB: 0

@@ -1,3 +1,6 @@
+## v1.3.1
+- Some properties on some Shading Presets were configured incorrectly, so they were fixed. Sorry about that!
+
 ## v1.3.0
 ## REBUILD YOUR PRESETS CACHE FOR THIS RELEASE!! To do this, click `Thry -> Presets -> Rebuild Cache` in the Unity Menu Bar.
 
