@@ -1,3 +1,10 @@
+## v1.3.0
+- Added `Shading/Anime Style Redux`, a hybrid Cartoon Rim Lighting styled Shading Preset. If you play Genshin Impact or similar Anime-styled games, this Preset might look familiar to you.
+- Added `For World Creators/Emulate Standard Shader`. This Preset will directly emulate the shading properties similar to Unity's Standard Shader, for those who wish to use Poiyomi World's features in World Projects.
+- Changed the category `Patches` to `Quick Fixes` since that makes a bit more sense to me.
+- Changed the category `Special FX/Grab Pass` to `Special FX/Grab Pass (Requires Poiyomi Grab Pass)`, just in case the user didn't know the Preset required using the Poyiomi Grab Pass variant (and a subtle reminder that Grab Pass is now available in the Free version).
+- Updated README.md.
+
 ## v1.2.2
 - Changed `Shading/Blu's Shading Setup` to reflect my latest settings.
 - Fixed `Shading/Faint Eye Reflection [Clear Coat]` from not having the correct Preset tags. It should work now!

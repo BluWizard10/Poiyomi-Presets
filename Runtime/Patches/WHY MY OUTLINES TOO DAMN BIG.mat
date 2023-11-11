@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Oh shit my Outlines are too big
+  m_Name: WHY MY OUTLINES TOO DAMN BIG
   m_Shader: {fileID: 4800000, guid: 034460dc851505a42baca2ba6514f9f0, type: 3}
   m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
     _STOCHASTICMODE_DELIOT_HEITZ
@@ -19,8 +19,9 @@ Material:
     RenderType: Opaque
     _LineWidth_isPreset: true
     _OutlineClipAtZeroWidth_isPreset: true
+    _OutlineSpace_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Patches/Outlines for 100 Mesh Scale
+    presetName: BluWizard's Presets/Quick Fixes/Outlines for 100 Mesh Scale
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

@@ -1,10 +1,10 @@
-![Header Image](/Blu-Poiyomi-Presets-Header-Image.png)
+![Header Image](/Images/Blu-Poiyomi-Presets-Header-Image.png)
 
 # [📦 Add the VPM to Creator Companion](https://vpm.bluwizard.net/)
 
 # BluWizard's Collection of Poiyomi Presets
 
-This VPM Community Repository is a neat collection of Presets made for Poiyomi Toon Shader, a widely popular Shader used in VRChat. You can use these to help further customize your Avatar to make it as good as you want it to be!
+This VCC Community Repository is a neat collection of Presets made for Poiyomi Toon Shader, a widely popular Shader used in VRChat. You can use these to help further customize your Avatar to make it as good as you want it to be!
 
 ### Features
 - Various Shading Presets consisting of various styles.
@@ -19,9 +19,9 @@ This VPM Community Repository is a neat collection of Presets made for Poiyomi T
 1. [Add my VPM Repository to the Creator Companion.](https://vpm.bluwizard.net/)
 2. Add "Blu's Poiyomi Presets" to your Project.
 3. In your Material Inspector, click this little icon right here to find them.
-![Where to find Presets](/Step1_Unity_KBPaVwusn1.png)
+![Where to find Presets](/Images/Step1_Unity_KBPaVwusn1.png)
 4. My Presets will be categorized under `BluWizard's Presets`. Checkmark which one you like to preview. If you like it, hit "Apply" to use it in your Material.
-![How to select your Preset](/Step2_Unity_TQjFHsV72c.png)
+![How to select your Preset](/Images/Step2_Unity_TQjFHsV72c.png)
 
 ***More Presets will be added as time goes on with updates.***
 
@@ -29,4 +29,4 @@ Other than that, hope these Presets help you out in your journey customizing you
 
 
 
-*Avatars Featured in image: Squeak Warrior by Emperor of Mars, Jerry Avali by Rai Kitamatsu, Hyenid by Alber*
+*Avatars Featured in image: Squeak Warrior by Emperor of Mars, Jerry Avali by Rai Kitamatsu, Hyenid by Alber.*

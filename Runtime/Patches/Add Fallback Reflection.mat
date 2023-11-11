@@ -7,62 +7,22 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cartoon Style
+  m_Name: Add Fallback Reflection
   m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_MULTILAYER_MATH _RIM2STYLE_POIYOMI
-    _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
+    _STOCHASTICMODE_DELIOT_HEITZ
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-    _DisableDirectionalInAdd_isPreset: true
-    _LightingAdditiveCastedShadows_isPreset: true
-    _LightingAdditiveEnable_isPreset: true
-    _LightingAdditiveGradientEnd_isPreset: true
-    _LightingAdditiveGradientStart_isPreset: true
-    _LightingAdditiveLimit_isPreset: true
-    _LightingAdditiveLimited_isPreset: true
-    _LightingAdditiveMonochromatic_isPreset: true
-    _LightingAdditivePassthrough_isPreset: true
-    _LightingAdditiveType_isPreset: true
-    _LightingCapEnabled_isPreset: true
-    _LightingCap_isPreset: true
-    _LightingCastedShadows_isPreset: true
-    _LightingColorMode_isPreset: true
-    _LightingDirectionMode_isPreset: true
-    _LightingForceColorEnabled_isPreset: true
-    _LightingIgnoreAmbientColor_isPreset: true
-    _LightingMapMode_isPreset: true
-    _LightingMinLightBrightness_isPreset: true
-    _LightingMode_isPreset: true
-    _LightingMonochromatic_isPreset: true
-    _LightingMulitlayerNonLinear_isPreset: true
-    _LightingVertexLightingEnabled_isPreset: true
-    _MultilayerMathBlurMap_isPreset: true
-    _ShadingEnabled_isPreset: true
-    _Shadow2ndBlur_isPreset: true
-    _Shadow2ndBorder_isPreset: true
-    _Shadow2ndColorTex_isPreset: true
-    _Shadow2ndColor_isPreset: true
-    _Shadow2ndReceive_isPreset: true
-    _Shadow3rdBlur_isPreset: true
-    _Shadow3rdBorder_isPreset: true
-    _Shadow3rdColorTex_isPreset: true
-    _Shadow3rdColor_isPreset: true
-    _Shadow3rdReceive_isPreset: true
-    _ShadowBlur_isPreset: true
-    _ShadowBorderColor_isPreset: true
-    _ShadowBorderRange_isPreset: true
-    _ShadowBorder_isPreset: true
-    _ShadowColorTex_isPreset: true
-    _ShadowColor_isPreset: true
-    _ShadowMainStrength_isPreset: true
-    _ShadowReceive_isPreset: true
-    _ShadowStrength_isPreset: true
+    _ClearCoatFallback_isPreset: true
+    _ClearCoatLitFallback_isPreset: true
+    _MochieLitFallback_isPreset: true
+    _MochieReflCube_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Shading/Cartoon Style
+    presetName: BluWizard's Presets/Quick Fixes/Add Fallback Reflection
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -108,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatFallback:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8900000, guid: 604fb798df621e24cb26bd3ac91a85d4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatMaps:
@@ -408,7 +368,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieReflCube:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8900000, guid: 604fb798df621e24cb26bd3ac91a85d4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MultilayerMathBlurMap:
@@ -1655,32 +1615,32 @@ Material:
     - _LightingAdditiveCastedShadows: 1
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
-    - _LightingAdditiveGradientStart: 0.4
-    - _LightingAdditiveLimit: 7
-    - _LightingAdditiveLimited: 1
+    - _LightingAdditiveGradientStart: 0
+    - _LightingAdditiveLimit: 1
+    - _LightingAdditiveLimited: 0
     - _LightingAdditiveMonochromatic: 0
-    - _LightingAdditivePassthrough: 0
+    - _LightingAdditivePassthrough: 0.5
     - _LightingAdditiveType: 1
-    - _LightingCap: 1.5
+    - _LightingCap: 1
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
-    - _LightingColorMode: 3
+    - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
     - _LightingDetailShadowStrengthA: 0
     - _LightingDetailShadowStrengthB: 0
     - _LightingDetailShadowStrengthG: 0
     - _LightingDetailShadowStrengthR: 1
-    - _LightingDirectionMode: 4
+    - _LightingDirectionMode: 0
     - _LightingForceColorEnabled: 0
     - _LightingForcedColorThemeIndex: 0
     - _LightingGradientEnd: 0.5
     - _LightingGradientStart: 0
-    - _LightingIgnoreAmbientColor: 0.2
+    - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
-    - _LightingMode: 1
+    - _LightingMode: 5
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
@@ -2182,13 +2142,13 @@ Material:
     - _Shadow3rdColorTexUV: 0
     - _Shadow3rdReceive: 0
     - _ShadowBlur: 0.1
-    - _ShadowBorder: 0.368
+    - _ShadowBorder: 0.5
     - _ShadowBorderRange: 0
     - _ShadowColorTexUV: 0
-    - _ShadowMainStrength: 0.2
+    - _ShadowMainStrength: 0
     - _ShadowOffset: 0
     - _ShadowReceive: 0
-    - _ShadowStrength: 0.7
+    - _ShadowStrength: 1
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
@@ -2564,7 +2524,7 @@ Material:
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
     - m_lightingCategory: 1
-    - m_mainCategory: 1
+    - m_mainCategory: 0
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 0
@@ -2633,8 +2593,8 @@ Material:
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
     - m_start_PathAudioLink: 0
-    - m_start_PoiLightData: 1
-    - m_start_PoiShading: 1
+    - m_start_PoiLightData: 0
+    - m_start_PoiShading: 0
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -2660,11 +2620,11 @@ Material:
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
-    - m_start_brdf: 0
-    - m_start_brdfadvanced: 0
+    - m_start_brdf: 1
+    - m_start_brdfadvanced: 1
     - m_start_brdfglobalmask: 0
-    - m_start_clearCoat: 0
-    - m_start_clearcoatadvanced: 0
+    - m_start_clearCoat: 1
+    - m_start_clearcoatadvanced: 1
     - m_start_clearcoatglobalmask: 0
     - m_start_depthFX: 0
     - m_start_depthRimLightOptions: 0

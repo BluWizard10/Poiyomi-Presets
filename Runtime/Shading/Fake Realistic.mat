@@ -1643,7 +1643,7 @@ Material:
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0
     - _LightingAdditiveType: 0
-    - _LightingCap: 2
+    - _LightingCap: 1
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 1
     - _LightingColorMode: 0

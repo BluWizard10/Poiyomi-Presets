@@ -1673,12 +1673,12 @@ Material:
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 7
+    - _LightingAdditiveLimit: 8
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0
     - _LightingAdditiveType: 3
-    - _LightingCap: 2
+    - _LightingCap: 1.5
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
     - _LightingColorMode: 3

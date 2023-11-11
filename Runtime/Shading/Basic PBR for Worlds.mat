@@ -7,21 +7,52 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clamp Dissolve
-  m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
+  m_Name: Basic PBR for Worlds
+  m_Shader: {fileID: 4800000, guid: 784867d15973a4847b1a6048d42c1565, type: 3}
+  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_REALISTIC _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
     _STOCHASTICMODE_DELIOT_HEITZ
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-    _DissolveP2PClamp_isPreset: true
-    _DissolveP2PWorldLocal_isPreset: true
-    _SphericalDissolveClamp_isPreset: true
+    _DisableDirectionalInAdd_isPreset: true
+    _IgnoreCastedShadows_isPreset: true
+    _LightingAdditiveCastedShadows_isPreset: true
+    _LightingAdditiveEnable_isPreset: true
+    _LightingAdditiveLimited_isPreset: true
+    _LightingAdditiveMonochromatic_isPreset: true
+    _LightingAdditivePassthrough_isPreset: true
+    _LightingAdditiveType_isPreset: true
+    _LightingCapEnabled_isPreset: true
+    _LightingCap_isPreset: true
+    _LightingCastedShadows_isPreset: true
+    _LightingColorMode_isPreset: true
+    _LightingDirectionMode_isPreset: true
+    _LightingForceColorEnabled_isPreset: true
+    _LightingMapMode_isPreset: true
+    _LightingMinLightBrightness_isPreset: true
+    _LightingMode_isPreset: true
+    _LightingMonochromatic_isPreset: true
+    _LightingShadowColor_isPreset: true
+    _LightingVertexLightingEnabled_isPreset: true
+    _MochieForceFallback_isPreset: true
+    _MochieGSAAEnabled_isPreset: true
+    _MochieReflectionStrength_isPreset: true
+    _MochieReflectionTint_isPreset: true
+    _MochieSpecularStrength_isPreset: true
+    _MochieSpecularTint_isPreset: true
+    _PBRNormalSelect_isPreset: true
+    _PBRSplitMaskSample_isPreset: true
+    _PoiGSAAThreshold_isPreset: true
+    _PoiGSAAVariance_isPreset: true
+    _RefSpecFresnel_isPreset: true
+    _ShadingEnabled_isPreset: true
+    _Specular2ndLayer_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Patches/Fix Dissolves for Avatar Scaling
+    presetName: BluWizard's Presets/For World Creators/Emulate Standard Shader
+    shader_master_label_isPreset: true
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -523,8 +554,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - DSGI: 0
     - GeometryShader_Enabled: 1
     - Instancing: 0
+    - LightmapFlags: 0
     - Tessellation_Enabled: 1
     - _1st2nd_Shades_Feather: 0.0001
     - _1stShadeMapMask_Inverse: 0
@@ -1044,13 +1077,13 @@ Material:
     - _DissolveMaskInvert: 0
     - _DissolveMaskUV: 0
     - _DissolveNoiseTextureUV: 0
-    - _DissolveP2PClamp: 1
+    - _DissolveP2PClamp: 0
     - _DissolveP2PEdgeLength: 0.1
     - _DissolveP2PWorldLocal: 0
     - _DissolveTextureColorThemeIndex: 0
     - _DissolveToEmissionStrength: 0
     - _DissolveToTextureUV: 0
-    - _DissolveType: 2
+    - _DissolveType: 1
     - _DissolveUseVertexColors: 0
     - _DistortionFlowTexture1UV: 0
     - _DistortionFlowTextureUV: 0
@@ -1247,6 +1280,7 @@ Material:
     - _FlipbookTexArrayUV: 0
     - _FlipbookTiled: 0
     - _ForgotToLockMaterial: 1
+    - _GIEmissionMultiplier: 1
     - _GITDEMaxEmissionMultiplier: 0
     - _GITDEMaxEmissionMultiplier1: 0
     - _GITDEMaxEmissionMultiplier2: 0
@@ -1619,11 +1653,11 @@ Material:
     - _LightingAdditiveLimited: 0
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0.5
-    - _LightingAdditiveType: 1
+    - _LightingAdditiveType: 0
     - _LightingCap: 1
     - _LightingCapEnabled: 1
-    - _LightingCastedShadows: 0
-    - _LightingColorMode: 0
+    - _LightingCastedShadows: 1
+    - _LightingColorMode: 1
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
     - _LightingDetailShadowStrengthA: 0
@@ -1636,10 +1670,10 @@ Material:
     - _LightingGradientEnd: 0.5
     - _LightingGradientStart: 0
     - _LightingIgnoreAmbientColor: 1
-    - _LightingIndirectUsesNormals: 0
+    - _LightingIndirectUsesNormals: 1
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
-    - _LightingMode: 5
+    - _LightingMode: 6
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
@@ -1841,7 +1875,7 @@ Material:
     - _MochieReflectionStrengthGlobalMaskBlendType: 2
     - _MochieReflectionTintThemeIndex: 0
     - _MochieRoughnessMapInvert: 0
-    - _MochieRoughnessMultiplier: 1
+    - _MochieRoughnessMultiplier: 0.5
     - _MochieRoughnessMultiplier2: 1
     - _MochieSmoothnessGlobalMask: 0
     - _MochieSmoothnessGlobalMaskBlendType: 2
@@ -2154,7 +2188,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _Specular2ndLayer: 0
     - _SpecularHighlights: 1
-    - _SphericalDissolveClamp: 1
+    - _SphericalDissolveClamp: 0
     - _SphericalDissolveInvert: 0
     - _SphericalDissolveRadius: 1.5
     - _SrcBlend: 1
@@ -2483,6 +2517,7 @@ Material:
     - m_end_audioLink: 0
     - m_end_backFace: 0
     - m_end_backlight: 0
+    - m_end_bakedLighting: 0
     - m_end_blending: 0
     - m_end_brdf: 0
     - m_end_brdfadvanced: 0
@@ -2522,12 +2557,12 @@ Material:
     - m_end_vertexGlitching: 0
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
-    - m_lightingCategory: 0
-    - m_mainCategory: 0
+    - m_lightingCategory: 1
+    - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_postprocessing: 0
-    - m_renderingCategory: 0
-    - m_specialFXCategory: 1
+    - m_renderingCategory: 1
+    - m_specialFXCategory: 0
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -2592,13 +2627,13 @@ Material:
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
     - m_start_PathAudioLink: 0
-    - m_start_PoiLightData: 0
-    - m_start_PoiShading: 0
+    - m_start_PoiLightData: 1
+    - m_start_PoiShading: 1
     - m_start_RGBAColors: 0
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
     - m_start_RimAudioLink: 0
-    - m_start_SphericalDissolve: 1
+    - m_start_SphericalDissolve: 0
     - m_start_StencilPassBackOptions: 0
     - m_start_StencilPassFrontOptions: 0
     - m_start_StencilPassOptions: 0
@@ -2618,16 +2653,17 @@ Material:
     - m_start_audioLink: 0
     - m_start_backFace: 0
     - m_start_backlight: 0
+    - m_start_bakedLighting: 1
     - m_start_blending: 0
-    - m_start_brdf: 0
-    - m_start_brdfadvanced: 0
+    - m_start_brdf: 1
+    - m_start_brdfadvanced: 1
     - m_start_brdfglobalmask: 0
     - m_start_clearCoat: 0
     - m_start_clearcoatadvanced: 0
     - m_start_clearcoatglobalmask: 0
     - m_start_depthFX: 0
     - m_start_depthRimLightOptions: 0
-    - m_start_dissolve: 1
+    - m_start_dissolve: 0
     - m_start_dissolveHueShift: 0
     - m_start_emission1Options: 0
     - m_start_emission2Options: 0
@@ -2641,7 +2677,7 @@ Material:
     - m_start_normalCorrect: 0
     - m_start_parallax: 0
     - m_start_pathing: 0
-    - m_start_pointToPoint: 1
+    - m_start_pointToPoint: 0
     - m_start_postprocess: 0
     - m_start_reflectionRim: 0
     - m_start_rgbanormals: 0
@@ -2814,7 +2850,7 @@ Material:
     - _EmissionAL2StrengthMod: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionAL3Multipliers: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionAL3StrengthMod: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor1: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor3: {r: 1, g: 1, b: 1, a: 1}

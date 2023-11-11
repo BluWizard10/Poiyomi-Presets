@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fix Outline Distance
+  m_Name: Fix Outline Distance Scaling
   m_Shader: {fileID: 4800000, guid: 034460dc851505a42baca2ba6514f9f0, type: 3}
   m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
     _STOCHASTICMODE_DELIOT_HEITZ
@@ -22,7 +22,7 @@ Material:
     _OutlineSpace_isPreset: true
     _OutlinesMaxDistance_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Patches/Fix Outline Distance
+    presetName: BluWizard's Presets/Quick Fixes/Fix Outline Distance Scaling
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -2995,7 +2995,7 @@ Material:
     - _LightingShadowColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}
