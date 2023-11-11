@@ -1,4 +1,6 @@
 ## v1.3.0
+## REBUILD YOUR PRESETS CACHE FOR THIS RELEASE!! To do this, click `Thry -> Presets -> Rebuild Cache` in the Unity Menu Bar.
+
 - Added `Shading/Anime Style Redux`, a hybrid Cartoon Rim Lighting styled Shading Preset. If you play Genshin Impact or similar Anime-styled games, this Preset might look familiar to you.
 - Added `For World Creators/Emulate Standard Shader`. This Preset will directly emulate the shading properties similar to Unity's Standard Shader, for those who wish to use Poiyomi World's features in World Projects.
 - Changed the category `Patches` to `Quick Fixes` since that makes a bit more sense to me.
