@@ -1156,10 +1156,10 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 1.6
-    - _EmissionStrength1: 1.6
-    - _EmissionStrength2: 1.6
-    - _EmissionStrength3: 1.6
+    - _EmissionStrength: 2
+    - _EmissionStrength1: 2
+    - _EmissionStrength2: 2
+    - _EmissionStrength3: 2
     - _EmissiveBlink_Max: 1
     - _EmissiveBlink_Max1: 1
     - _EmissiveBlink_Max2: 1
@@ -2397,7 +2397,7 @@ Material:
     - g_start_decal_position: 0
     - g_start_deliot: 0
     - g_start_hextile: 0
-    - m_AudioLinkCategory: 1
+    - m_AudioLinkCategory: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
     - m_end_Alpha: 0

@@ -1,5 +1,5 @@
 ## v1.3.2
-- Emission Presets will no longer touch `PP Animations` since they are supposed to be animated by the user. Sorry about that!
+- Emission Presets will no longer touch `Post Processing -> PP Animations` since they are supposed to be animated by the user. Sorry about that!
 
 ## v1.3.1
 - Some properties on some Shading Presets were configured incorrectly, so they were fixed. Sorry about that!
