@@ -1,3 +1,6 @@
+## v1.3.3
+- Readjusted `Special FX/Emission/Glowy Sweet Spot` to further reflect my intented look.
+
 ## v1.3.2
 - Emission Presets will no longer touch `Post Processing -> PP Animations` since they are supposed to be animated by the user. Sorry about that!
 
