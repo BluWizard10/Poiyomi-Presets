@@ -1,5 +1,9 @@
+## v1.3.4
+- Disabled `Vertex lights (Non-Important)` and `Pixel lights (Important)` on the Preset, `Special FX/GrabPass (Requires Poiyomi Grab Pass)/Glasses with Refraction`.
+    - This fixes an issue where Realtime Light Sources, such as Point Lights, would cause the Material to get fogged.
+
 ## v1.3.3
-- Readjusted `Special FX/Emission/Glowy Sweet Spot` to further reflect my intented look.
+- Readjusted `Special FX/Emission/Glowy Sweet Spot` to further reflect my intended look.
 
 ## v1.3.2
 - Emission Presets will no longer touch `Post Processing -> PP Animations` since they are supposed to be animated by the user. Sorry about that!

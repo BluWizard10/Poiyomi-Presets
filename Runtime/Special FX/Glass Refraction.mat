@@ -22,7 +22,6 @@ Material:
     _AlphaForceOpaque_isPreset: true
     _AlphaMod_isPreset: true
     _AlphaPremultiply_isPreset: true
-    _DisableDirectionalInAdd_isPreset: true
     _EnableBlur_isPreset: true
     _EnableEnvironmentalRim_isPreset: true
     _EnableGrabpass_isPreset: true
@@ -35,7 +34,6 @@ Material:
     _LightingAdditiveEnable_isPreset: true
     _LightingAdditiveLimited_isPreset: true
     _LightingAdditiveMonochromatic_isPreset: true
-    _LightingAdditivePassthrough_isPreset: true
     _LightingAdditiveType_isPreset: true
     _LightingCapEnabled_isPreset: true
     _LightingCap_isPreset: true
@@ -1692,7 +1690,7 @@ Material:
     - _LightingAddDetailShadowStrengthG: 0
     - _LightingAddDetailShadowStrengthR: 1
     - _LightingAdditiveCastedShadows: 1
-    - _LightingAdditiveEnable: 1
+    - _LightingAdditiveEnable: 0
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
     - _LightingAdditiveLimit: 1
@@ -1727,7 +1725,7 @@ Material:
     - _LightingShadowMaskStrengthG: 0
     - _LightingShadowMaskStrengthR: 1
     - _LightingShadowMasksUV: 0
-    - _LightingVertexLightingEnabled: 1
+    - _LightingVertexLightingEnabled: 0
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
     - _LockTooltip: 0
