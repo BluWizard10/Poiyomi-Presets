@@ -1,3 +1,6 @@
+## v1.3.5
+- Added `Shading/Sacred's Realistic Perfection` Preset. Say a big thanks to Sacred for discovering this absolutely-perfect Realistic Shading setup.
+
 ## v1.3.4
 - Disabled `Vertex lights (Non-Important)` and `Pixel lights (Important)` on the Preset, `Special FX/GrabPass (Requires Poiyomi Grab Pass)/Glasses with Refraction`.
     - This fixes an issue where Realtime Light Sources, such as Point Lights, would cause the Material to get fogged.
