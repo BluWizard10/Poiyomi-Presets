@@ -2,15 +2,22 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fake Realistic
   m_Shader: {fileID: 4800000, guid: 5ca92f1e9fc35504aba297fd1acd62df, type: 3}
-  m_ShaderKeywords: VIGNETTE_MASKED _LIGHTINGMODE_WRAPPED _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI
-    _STOCHASTICMODE_DELIOT_HEITZ
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - VIGNETTE_MASKED
+  - _LIGHTINGMODE_WRAPPED
+  - _RIM2STYLE_POIYOMI
+  - _RIMSTYLE_POIYOMI
+  - _STOCHASTICMODE_DELIOT_HEITZ
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,6 +27,7 @@ Material:
     _DisableDirectionalInAdd_isPreset: true
     _LightingAdditiveCastedShadows_isPreset: true
     _LightingAdditiveEnable_isPreset: true
+    _LightingAdditiveLimit_isPreset: true
     _LightingAdditiveLimited_isPreset: true
     _LightingAdditiveMonochromatic_isPreset: true
     _LightingAdditivePassthrough_isPreset: true
@@ -46,6 +54,7 @@ Material:
     isPreset: true
     presetName: BluWizard's Presets/Shading/Fake Realistic [Wrapped]
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -545,6 +554,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - GeometryShader_Enabled: 1
     - Instancing: 0
@@ -1638,14 +1648,14 @@ Material:
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.799
     - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 1
-    - _LightingAdditiveLimited: 0
+    - _LightingAdditiveLimit: 8
+    - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
-    - _LightingAdditivePassthrough: 0
-    - _LightingAdditiveType: 0
-    - _LightingCap: 1
+    - _LightingAdditivePassthrough: 0.5
+    - _LightingAdditiveType: 3
+    - _LightingCap: 1.2
     - _LightingCapEnabled: 1
-    - _LightingCastedShadows: 1
+    - _LightingCastedShadows: 0.4
     - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
@@ -1656,9 +1666,9 @@ Material:
     - _LightingDirectionMode: 0
     - _LightingForceColorEnabled: 0
     - _LightingForcedColorThemeIndex: 0
-    - _LightingGradientEnd: 1
+    - _LightingGradientEnd: 0.8
     - _LightingGradientStart: 0
-    - _LightingIgnoreAmbientColor: 0.2
+    - _LightingIgnoreAmbientColor: 0.1
     - _LightingIndirectUsesNormals: 1
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
@@ -1671,8 +1681,8 @@ Material:
     - _LightingShadowMaskStrengthR: 1
     - _LightingShadowMasksUV: 0
     - _LightingVertexLightingEnabled: 1
-    - _LightingWrappedNormalization: 0
-    - _LightingWrappedWrap: 0.376
+    - _LightingWrappedNormalization: 0.5
+    - _LightingWrappedWrap: 0.422
     - _LockTooltip: 0
     - _MainALHueShiftBand: 0
     - _MainALHueShiftCTIndex: 0
@@ -2170,7 +2180,7 @@ Material:
     - _ShadowMainStrength: 0
     - _ShadowOffset: 0
     - _ShadowReceive: 0
-    - _ShadowStrength: 1
+    - _ShadowStrength: 0.957
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
@@ -3070,3 +3080,4 @@ Material:
     - _VertexWorldTranslationALMin: {r: 0, g: 0, b: 0, a: 1}
     - _VideoMaskTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _VideoResolution: {r: 1280, g: 720, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,3 +1,8 @@
+## v1.3.6
+- Fixed `Shading/Fake Realistic` with readjustments to the Wrapped Shading. It should be a lot better now.
+
+*NOTE: Since Poiyomi v9.0 is right around the corner, the next updates to Blu's Poiyomi Presets from this point on (v1.4.x) will include Presets that only specifically support Poiyomi v9.0. Therefore, no more Presets will be added for v8.1.*
+
 ## v1.3.5
 - Added `Shading/Sacred's Realistic Perfection` Preset. Say a big thanks to Sacred for discovering this absolutely-perfect Realistic Shading setup.
 
