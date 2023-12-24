@@ -51,7 +51,7 @@ Material:
     _ShadingEnabled_isPreset: true
     _Specular2ndLayer_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/For World Creators/Emulate Standard Shader
+    presetName: BluWizard's Presets/8.1/For World Creators/Emulate Standard Shader
     shader_master_label_isPreset: true
   disabledShaderPasses: []
   m_SavedProperties:

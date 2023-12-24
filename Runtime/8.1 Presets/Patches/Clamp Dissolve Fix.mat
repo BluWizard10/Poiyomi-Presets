@@ -21,7 +21,7 @@ Material:
     _DissolveP2PWorldLocal_isPreset: true
     _SphericalDissolveClamp_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Quick Fixes/Fix Dissolve for Avatar Scaling
+    presetName: BluWizard's Presets/8.1/Quick Fixes/Fix Dissolve for Avatar Scaling
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

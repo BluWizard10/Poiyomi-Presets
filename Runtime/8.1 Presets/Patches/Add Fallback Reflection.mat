@@ -22,7 +22,7 @@ Material:
     _MochieLitFallback_isPreset: true
     _MochieReflCube_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Quick Fixes/Add Fallback Reflection
+    presetName: BluWizard's Presets/8.1/Quick Fixes/Add Fallback Reflection
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

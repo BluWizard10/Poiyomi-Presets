@@ -80,7 +80,7 @@ Material:
     _Specular2ndLayer_isPreset: true
     _ZWrite_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Special FX/Grab Pass (Requires Poiyomi Grab Pass)/Glasses
+    presetName: BluWizard's Presets/8.1/Special FX/Grab Pass (Requires Poiyomi Grab Pass)/Glasses
       with Refraction
     shader_master_label_isPreset: true
   disabledShaderPasses: []

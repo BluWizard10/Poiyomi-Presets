@@ -41,7 +41,7 @@ Material:
     _EnableDissolveAudioLink_isPreset: true
     _EnableDissolve_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/AudioLink/Basic Dissolve
+    presetName: BluWizard's Presets/8.1/AudioLink/Basic Dissolve
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

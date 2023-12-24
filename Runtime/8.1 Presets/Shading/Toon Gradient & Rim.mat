@@ -81,7 +81,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Shading/Toon Gradient with Rim
+    presetName: BluWizard's Presets/8.1/Shading/Toon Gradient with Rim
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

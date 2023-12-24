@@ -22,7 +22,7 @@ Material:
     _OutlineSpace_isPreset: true
     _OutlinesMaxDistance_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Quick Fixes/Fix Outline Distance Scaling
+    presetName: BluWizard's Presets/8.1/Quick Fixes/Fix Outline Distance Scaling
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

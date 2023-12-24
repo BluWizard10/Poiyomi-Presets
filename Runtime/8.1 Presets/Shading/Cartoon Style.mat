@@ -62,7 +62,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Shading/Cartoon Style
+    presetName: BluWizard's Presets/8.1/Shading/Cartoon Style
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

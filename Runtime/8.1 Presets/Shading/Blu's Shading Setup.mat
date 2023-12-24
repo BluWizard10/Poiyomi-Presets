@@ -80,7 +80,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Shading/Blu's Shading Setup
+    presetName: BluWizard's Presets/8.1/Shading/Blu's Shading Setup
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3

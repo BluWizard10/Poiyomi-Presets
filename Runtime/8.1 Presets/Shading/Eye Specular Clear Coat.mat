@@ -34,7 +34,7 @@ Material:
     _ClearCoatStrength_isPreset: true
     _ClearcoatFresnel_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/Shading/Faint Eye Reflection [Clear Coat]
+    presetName: BluWizard's Presets/8.1/Shading/Faint Eye Reflection [Clear Coat]
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
