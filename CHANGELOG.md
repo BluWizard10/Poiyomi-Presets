@@ -1,12 +1,14 @@
-# v1.4.0-beta.1
-## MAJOR UPDATE! PLEASE REBUILD YOUR PRESETS CACHE FOR THIS RELEASE!! To do this, click `Thry -> Presets -> Rebuild Cache` in the Unity Menu Bar.
+# v1.4.0
+## MAJOR UPDATE! PLEASE UPGRADE POIYOMI TOON SHADER TO 9.0 IN ORDER FOR ALL PRESETS TO UPDATE CORRECTLY!
 
-- Added support for Poiyomi Shaders v9.0 with fresh new presets, some of which are exclusive to 9.0!
+- Added support for Poiyomi Toon v9.0 with fresh new presets, some of which are exclusive to 9.0!
     - `9.0/AudioLink/Outline Glow & Color Change` is exactly what it sounds like. You can now make your Outlines do some awesome AudioLink magic in 9.0! For demonstration purposes, this Preset will change the color to Blue and pulse the Outline Emission when the Bass hits (you can change this if you want). Try it out!
     - `9.0/AudioLink/Bass Wave [Rim Lighting 1]` enables a fun Rim Lighting effect that will increase in width with Emission when the Bass hits.
     - `9.0/Quick Fixes/Enable Lighting in Mirrors` will enable a simple checkmark that fixes an issue where your Avatar's Lighting does not appear correctly in VRChat Mirrors. Neat!
 - Reorganized all Preset Names to indicate which Poiyomi versions the Presets support. They are now sorted under `BluWizard's Presets/8.1` and `BluWizard's Presets/9.0` respectively.
 - Fixed `9.0/Shading/Blu's Shading Setup` having no Point Light Passthrough.
+
+*Most, if not all, of the previous Presets I've created have been ported with 9.0 Compatibility. However, I cannot guarantee any Presets that were made for 8.1 will apply correctly on 9.0. So I highly recommend using the new 9.0 Presets instead!*
 
 # v1.3.6
 - Fixed `Shading/Fake Realistic` with readjustments to the Wrapped Shading. It should be a lot better now.

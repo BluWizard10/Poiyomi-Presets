@@ -7,16 +7,15 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blu's Shading Setup Outlines
+  m_Name: Add Minimal Rim Lighting
   m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
-  - POI_AUDIOLINK
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
-  - _LIGHTINGMODE_MULTILAYER_MATH
+  - _LIGHTINGMODE_FLAT
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
@@ -27,58 +26,8 @@ Material:
   m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
-    VRCFallback: Toon
-    _AudioLinkAnimToggleAnimated: 1
-    _AudioLinkOutlineColorBand_isPreset: true
-    _AudioLinkOutlineColorMod_isPreset: true
-    _AudioLinkOutlineColor_isPreset: true
-    _AudioLinkOutlineEmissionBand_isPreset: true
-    _AudioLinkOutlineEmission_isPreset: true
-    _AudioLinkOutlineSizeBand_isPreset: true
-    _AudioLinkOutlineSize_isPreset: true
-    _DisableDirectionalInAdd_isPreset: true
-    _EnableAudioLink_isPreset: true
-    _EnableOutlines_isPreset: true
     _EnableRimLighting_isPreset: true
     _Is_NormalMapToRimLight_isPreset: true
-    _LightingAdditiveCastedShadows_isPreset: true
-    _LightingAdditiveEnable_isPreset: true
-    _LightingAdditiveLimit_isPreset: true
-    _LightingAdditiveLimited_isPreset: true
-    _LightingAdditiveMonochromatic_isPreset: true
-    _LightingAdditivePassthrough_isPreset: true
-    _LightingAdditiveType_isPreset: true
-    _LightingCapEnabled_isPreset: true
-    _LightingCap_isPreset: true
-    _LightingCastedShadows_isPreset: true
-    _LightingColorMode_isPreset: true
-    _LightingDirectionMode_isPreset: true
-    _LightingForceColorEnabled_isPreset: true
-    _LightingIgnoreAmbientColor_isPreset: true
-    _LightingMapMode_isPreset: true
-    _LightingMinLightBrightness_isPreset: true
-    _LightingMirrorVertexLightingEnabled_isPreset: true
-    _LightingMode_isPreset: true
-    _LightingMonochromatic_isPreset: true
-    _LightingMulitlayerNonLinear_isPreset: true
-    _LightingVertexLightingEnabled_isPreset: true
-    _LineColor_isPreset: true
-    _LineWidth_isPreset: true
-    _MultilayerMathBlurMap_isPreset: true
-    _OutlineALColorEnabled_isPreset: true
-    _OutlineAlphaDistanceFade_isPreset: true
-    _OutlineClipAtZeroWidth_isPreset: true
-    _OutlineEmission_isPreset: true
-    _OutlineExpansionMode_isPreset: true
-    _OutlineFixWidth_isPreset: true
-    _OutlineFixedSize_isPreset: true
-    _OutlineHueShift_isPreset: true
-    _OutlineLit_isPreset: true
-    _OutlineShadowStrength_isPreset: true
-    _OutlineSpace_isPreset: true
-    _OutlineTintMix_isPreset: true
-    _OutlinesMaxDistance_isPreset: true
-    _PoiUTSStyleOutlineBlend_isPreset: true
     _RimBaseColorMix_isPreset: true
     _RimBlendStrength_isPreset: true
     _RimBrightness_isPreset: true
@@ -95,28 +44,8 @@ Material:
     _RimStyle_isPreset: true
     _RimTex_isPreset: true
     _RimWidth_isPreset: true
-    _ShadingEnabled_isPreset: true
-    _Shadow2ndBlur_isPreset: true
-    _Shadow2ndBorder_isPreset: true
-    _Shadow2ndColorTex_isPreset: true
-    _Shadow2ndColor_isPreset: true
-    _Shadow2ndReceive_isPreset: true
-    _Shadow3rdBlur_isPreset: true
-    _Shadow3rdBorder_isPreset: true
-    _Shadow3rdColorTex_isPreset: true
-    _Shadow3rdColor_isPreset: true
-    _Shadow3rdReceive_isPreset: true
-    _ShadowBlur_isPreset: true
-    _ShadowBorderColor_isPreset: true
-    _ShadowBorderRange_isPreset: true
-    _ShadowBorder_isPreset: true
-    _ShadowColorTex_isPreset: true
-    _ShadowColor_isPreset: true
-    _ShadowMainStrength_isPreset: true
-    _ShadowReceive_isPreset: true
-    _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/9.0/Shading/Blu's Shading Setup v5.0 Outlines
+    presetName: BluWizard's Presets/9.0/Shading/Add Minimal Rim Lighting
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -1323,7 +1252,7 @@ Material:
     - _EmissiveScroll_Width3: 10
     - _EnableALDecal: 0
     - _EnableAniso: 0
-    - _EnableAudioLink: 1
+    - _EnableAudioLink: 0
     - _EnableDepthBulge: 0
     - _EnableDepthRimLighting: 0
     - _EnableDissolve: 0
@@ -1341,7 +1270,7 @@ Material:
     - _EnableGITDEmission2: 0
     - _EnableGITDEmission3: 0
     - _EnableMirrorOptions: 0
-    - _EnableOutlines: 1
+    - _EnableOutlines: 0
     - _EnablePathing: 0
     - _EnableRim2Lighting: 0
     - _EnableRimLighting: 1
@@ -1758,34 +1687,34 @@ Material:
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 8
+    - _LightingAdditiveLimit: 1
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0.5
     - _LightingAdditiveType: 3
-    - _LightingCap: 1.5
+    - _LightingCap: 1
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
-    - _LightingColorMode: 3
+    - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
     - _LightingDetailShadowStrengthA: 0
     - _LightingDetailShadowStrengthB: 0
     - _LightingDetailShadowStrengthG: 0
     - _LightingDetailShadowStrengthR: 1
-    - _LightingDirectionMode: 4
+    - _LightingDirectionMode: 0
     - _LightingForceColorEnabled: 0
     - _LightingForcedColorThemeIndex: 0
     - _LightingGradientEnd: 0.5
     - _LightingGradientStart: 0
-    - _LightingIgnoreAmbientColor: 0.2
+    - _LightingIgnoreAmbientColor: 1
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0.4
-    - _LightingMirrorVertexLightingEnabled: 1
-    - _LightingMode: 1
-    - _LightingMonochromatic: 0.5
-    - _LightingMulitlayerNonLinear: 0
+    - _LightingMinLightBrightness: 0
+    - _LightingMirrorVertexLightingEnabled: 0
+    - _LightingMode: 5
+    - _LightingMonochromatic: 0
+    - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
     - _LightingShadowMaskStrengthB: 0
     - _LightingShadowMaskStrengthG: 0
@@ -2025,7 +1954,7 @@ Material:
     - _OffsetFactor: 0
     - _OffsetUnits: 0
     - _Offset_Z: 0
-    - _OutlineALColorEnabled: 1
+    - _OutlineALColorEnabled: 0
     - _OutlineAlphaDistanceFade: 0
     - _OutlineAlphaDistanceFadeMax: 0
     - _OutlineAlphaDistanceFadeMaxAlpha: 1
@@ -2034,7 +1963,7 @@ Material:
     - _OutlineAlphaDistanceFadeType: 1
     - _OutlineBlendOp: 0
     - _OutlineBlendOpAlpha: 4
-    - _OutlineClipAtZeroWidth: 1
+    - _OutlineClipAtZeroWidth: 0
     - _OutlineCull: 1
     - _OutlineDstBlend: 0
     - _OutlineDstBlendAlpha: 0
@@ -2411,14 +2340,14 @@ Material:
     - _Shadow3rdBorder: 0.25
     - _Shadow3rdColorTexUV: 0
     - _Shadow3rdReceive: 0
-    - _ShadowBlur: 1
-    - _ShadowBorder: 0.3
+    - _ShadowBlur: 0.1
+    - _ShadowBorder: 0.5
     - _ShadowBorderMapToggle: 0
     - _ShadowBorderMaskLOD: 0
     - _ShadowBorderMaskUV: 0
     - _ShadowBorderRange: 0
     - _ShadowColorTexUV: 0
-    - _ShadowMainStrength: 0.17
+    - _ShadowMainStrength: 0
     - _ShadowOffset: 0
     - _ShadowPostAO: 0
     - _ShadowReceive: 0
@@ -2627,8 +2556,8 @@ Material:
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
-    - m_AudioLinkCategory: 1
-    - m_OutlineCategory: 1
+    - m_AudioLinkCategory: 0
+    - m_OutlineCategory: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
     - m_end_Alpha: 0
@@ -2832,7 +2761,7 @@ Material:
     - m_start_Matcap2: 0
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
-    - m_start_OutlineAudioLink: 1
+    - m_start_OutlineAudioLink: 0
     - m_start_OutlineStencil: 0
     - m_start_OutlineStencilPassBackOptions: 0
     - m_start_OutlineStencilPassFrontOptions: 0
@@ -2863,7 +2792,7 @@ Material:
     - m_start_UVTileDissolveRow3: 0
     - m_start_VideoSettings: 0
     - m_start_alphaBlending: 0
-    - m_start_audioLink: 1
+    - m_start_audioLink: 0
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
@@ -3198,15 +3127,15 @@ Material:
     - s_start_MatcapSmoothness: 0
     - s_start_MatcapTPSMaskGroup: 0
     - s_start_MultilayerMath1stLayer: 1
-    - s_start_MultilayerMath2ndLayer: 1
-    - s_start_MultilayerMath3rdLayer: 1
+    - s_start_MultilayerMath2ndLayer: 0
+    - s_start_MultilayerMath3rdLayer: 0
     - s_start_MultilayerMathBorder: 1
     - s_start_MultilayerMathBorderMap: 0
     - s_start_OutlineAlphaDistanceFade: 0
     - s_start_OutlineColorAdjust: 0
-    - s_start_OutlineFixedSize: 1
-    - s_start_OutlineLighting: 1
-    - s_start_OutlineRenderingOptions: 1
+    - s_start_OutlineFixedSize: 0
+    - s_start_OutlineLighting: 0
+    - s_start_OutlineRenderingOptions: 0
     - s_start_PBRSecondSpecular: 0
     - s_start_PBRSplitMaskSample: 0
     - s_start_ParallaxInternalHueShift: 0
@@ -3230,7 +3159,7 @@ Material:
     - s_start_RimLight2DirectionMask: 0
     - s_start_RimLightDirectionMask: 0
     - s_start_ScrollingEmission0: 0
-    - s_start_ShadingAddPass: 1
+    - s_start_ShadingAddPass: 0
     - s_start_ShadingGlobalMask: 0
     - s_start_StylizedSpecularAdvanced: 0
     - s_start_StylizedSpecularLayer0: 1
@@ -3260,7 +3189,7 @@ Material:
     - s_start_matcap2ApplyToAlpha: 0
     - s_start_matcap3ApplyToAlpha: 0
     - s_start_matcapApplyToAlpha: 0
-    - s_start_outline_al_color: 1
+    - s_start_outline_al_color: 0
     - s_start_vertexRounding: 0
     - s_start_vertexRoundingAL: 0
     - shader_is_using_thry_editor: 69
@@ -3329,9 +3258,9 @@ Material:
     - _AudioLinkFlipbookEmission: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkFlipbookFrame: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkFlipbookScale: {r: 0, g: 0, b: 0, a: 0}
-    - _AudioLinkOutlineColor: {r: 0, g: 0.57254905, b: 0.8509804, a: 1}
+    - _AudioLinkOutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _AudioLinkOutlineColorMod: {r: 0, g: 1, b: 0, a: 0}
-    - _AudioLinkOutlineEmission: {r: 0, g: 14, b: 0, a: 0}
+    - _AudioLinkOutlineEmission: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkOutlineSize: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkPathEmissionAddA: {r: 0, g: 0, b: 0, a: 1}
     - _AudioLinkPathEmissionAddB: {r: 0, g: 0, b: 0, a: 1}
@@ -3519,7 +3448,7 @@ Material:
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingWrappedColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}

@@ -54,6 +54,7 @@ Material:
     _RimBaseColorMix_isPreset: true
     _RimBlendStrength_isPreset: true
     _RimBrightness_isPreset: true
+    _RimGlobalMask_isPreset: true
     _RimHueShiftEnabled_isPreset: true
     _RimLightColor_isPreset: true
     _RimLightingInvert_isPreset: true
@@ -354,6 +355,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainColorAdjustTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainGradationTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -906,6 +911,7 @@ Material:
     - _ClothMetallicSmoothnessMapUV: 0
     - _ClothReflectance: 0.5
     - _ClothSmoothness: 0.5
+    - _ColorGradingToggle: 0
     - _ColorMask: 15
     - _ColorThemeIndex: 0
     - _ContinuousDissolve: 0
@@ -1771,6 +1777,7 @@ Material:
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
     - _MainColorAdjustToggle: 0
+    - _MainGradationStrength: 0
     - _MainHueALCTEnabled: 0
     - _MainHueALMotionSpeed: 1
     - _MainHueGlobalMask: 0
@@ -2888,6 +2895,7 @@ Material:
     - s_end_BackfaceMods: 0
     - s_end_CCopt: 1
     - s_end_ClearCoatTPSMaskGroup: 0
+    - s_end_ColorAdjustColorGrading: 0
     - s_end_ContinuousRotation: 0
     - s_end_CubeMapColorAdjust: 0
     - s_end_CubeMapMasking: 0
@@ -3066,6 +3074,7 @@ Material:
     - s_start_BackfaceMods: 0
     - s_start_CCopt: 1
     - s_start_ClearCoatTPSMaskGroup: 0
+    - s_start_ColorAdjustColorGrading: 0
     - s_start_ContinuousRotation: 0
     - s_start_CubeMapColorAdjust: 0
     - s_start_CubeMapMasking: 1
@@ -3181,7 +3190,7 @@ Material:
     - s_start_RGBGreen: 0
     - s_start_RGBRed: 0
     - s_start_RimLight0Color: 1
-    - s_start_RimLight0GlobalMasking: 0
+    - s_start_RimLight0GlobalMasking: 1
     - s_start_RimLight0HueShift: 0
     - s_start_RimLight0LightDirMask: 0
     - s_start_RimLight0ShapeControls: 1
