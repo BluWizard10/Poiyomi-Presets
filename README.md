@@ -1,6 +1,6 @@
 ![Header Image](/Images/Blu-Poiyomi-Presets-Header-Image.png)
 
-# [📦 Add the VPM to Creator Companion](https://vpm.bluwizard.net/)
+# [📦 Add Blu's Poiyomi Presets to Creator Companion](https://vpm.bluwizard.net/)
 
 # BluWizard's Collection of Poiyomi Presets
 

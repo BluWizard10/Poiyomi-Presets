@@ -7,14 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rim Lighting AudioLink
+  m_Name: Fix Outline Distance 9.0
   m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
-  - POI_AUDIOLINK
-  - POI_RIM2
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_FLAT
   - _RIM2STYLE_POIYOMI
@@ -26,32 +24,11 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
-    RenderType: Opaque
-    _AudioLinkAnimToggleAnimated: 1
-    _AudioLinkAnimToggle_isPreset: true
-    _AudioLinkRim2BrightnessAdd_isPreset: true
-    _AudioLinkRim2BrightnessBand_isPreset: true
-    _AudioLinkRim2EmissionAdd_isPreset: true
-    _AudioLinkRim2EmissionBand_isPreset: true
-    _AudioLinkRim2WidthAdd_isPreset: true
-    _AudioLinkRim2WidthBand_isPreset: true
-    _EnableAudioLink_isPreset: true
-    _EnableRim2Lighting_isPreset: true
-    _Is_NormalMapToRim2Light_isPreset: true
-    _Rim2BaseColorMix_isPreset: true
-    _Rim2BlendStrength_isPreset: true
-    _Rim2Brightness_isPreset: true
-    _Rim2LightColor_isPreset: true
-    _Rim2LightingInvert_isPreset: true
-    _Rim2Power_isPreset: true
-    _Rim2ShadowToggle_isPreset: true
-    _Rim2Sharpness_isPreset: true
-    _Rim2Strength_isPreset: true
-    _Rim2Style_isPreset: true
-    _Rim2Width_isPreset: true
-    _RimPoi2BlendMode_isPreset: true
+    _OutlineFixWidth_isPreset: true
+    _OutlineFixedSize_isPreset: true
+    _OutlinesMaxDistance_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/9.0/AudioLink/Bass Wave [Rim Lighting 1]
+    presetName: BluWizard's Presets/9.0/Quick Fixes/Fix Distance Outline Size
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -820,7 +797,7 @@ Material:
     - _BlackLightMasking3Key: 4
     - _BlackLightMaskingEnabled: 0
     - _BlendOp: 0
-    - _BlendOpAlpha: 4
+    - _BlendOpAlpha: 0
     - _BlueAlphaAdd: 0
     - _BlueColorThemeIndex: 0
     - _BlueTextureStochastic: 0
@@ -905,7 +882,7 @@ Material:
     - _CurvatureU: 0
     - _CurvatureV: 0
     - _CustomColors: 0
-    - _Cutoff: 0
+    - _Cutoff: 0.5
     - _Decal0ApplyGlobalMaskBlendType: 0
     - _Decal0ApplyGlobalMaskIndex: 0
     - _Decal0ChannelSeparation: 0
@@ -915,7 +892,6 @@ Material:
     - _Decal0ChannelSeparationPremultiply: 0
     - _Decal0ChannelSeparationVertical: 0
     - _Decal0Depth: 0
-    - _Decal0FaceMask: 0
     - _Decal0GlobalMask: 0
     - _Decal0GlobalMaskBlendType: 2
     - _Decal0HueAngleStrength: 0
@@ -931,7 +907,6 @@ Material:
     - _Decal1ChannelSeparationPremultiply: 0
     - _Decal1ChannelSeparationVertical: 0
     - _Decal1Depth: 0
-    - _Decal1FaceMask: 0
     - _Decal1GlobalMask: 0
     - _Decal1GlobalMaskBlendType: 2
     - _Decal1HueAngleStrength: 0
@@ -947,7 +922,6 @@ Material:
     - _Decal2ChannelSeparationPremultiply: 0
     - _Decal2ChannelSeparationVertical: 0
     - _Decal2Depth: 0
-    - _Decal2FaceMask: 0
     - _Decal2GlobalMask: 0
     - _Decal2GlobalMaskBlendType: 2
     - _Decal2HueAngleStrength: 0
@@ -963,7 +937,6 @@ Material:
     - _Decal3ChannelSeparationPremultiply: 0
     - _Decal3ChannelSeparationVertical: 0
     - _Decal3Depth: 0
-    - _Decal3FaceMask: 0
     - _Decal3GlobalMask: 0
     - _Decal3GlobalMaskBlendType: 2
     - _Decal3HueAngleStrength: 0
@@ -1143,7 +1116,7 @@ Material:
     - _DistortionStrengthAudioLinkBand: 0
     - _DistortionUvToDistort: 0
     - _DstBlend: 0
-    - _DstBlendAlpha: 1
+    - _DstBlendAlpha: 10
     - _EmissionAL0Enabled: 0
     - _EmissionAL0MultipliersBand: 0
     - _EmissionAL0StrengthBand: 0
@@ -1262,7 +1235,7 @@ Material:
     - _EmissiveScroll_Width3: 10
     - _EnableALDecal: 0
     - _EnableAniso: 0
-    - _EnableAudioLink: 1
+    - _EnableAudioLink: 0
     - _EnableDepthBulge: 0
     - _EnableDepthRimLighting: 0
     - _EnableDissolve: 0
@@ -1280,9 +1253,9 @@ Material:
     - _EnableGITDEmission2: 0
     - _EnableGITDEmission3: 0
     - _EnableMirrorOptions: 0
-    - _EnableOutlines: 0
+    - _EnableOutlines: 1
     - _EnablePathing: 0
-    - _EnableRim2Lighting: 1
+    - _EnableRim2Lighting: 0
     - _EnableRimLighting: 0
     - _EnableTouchGlow: 0
     - _EnableUDIMDiscardOptions: 0
@@ -1736,7 +1709,7 @@ Material:
     - _LightingWrappedNormalization: 0
     - _LightingWrappedWrap: 0
     - _LineColorThemeIndex: 0
-    - _LineWidth: 1
+    - _LineWidth: 0.2
     - _MainALHueShiftBand: 0
     - _MainALHueShiftCTIndex: 0
     - _MainBrightness: 0
@@ -2247,12 +2220,12 @@ Material:
     - _Rim2ShadowMaskStrength: 1
     - _Rim2ShadowToggle: 0
     - _Rim2ShadowWidth: 0
-    - _Rim2Sharpness: 0
+    - _Rim2Sharpness: 0.25
     - _Rim2Strength: 0
     - _Rim2Style: 0
     - _Rim2TexUV: 0
     - _Rim2VRParallaxStrength: 1
-    - _Rim2Width: 0
+    - _Rim2Width: 0.8
     - _RimApColorThemeIndex: 0
     - _RimApplyAlpha: 0
     - _RimApplyAlphaBlend: 1
@@ -2566,8 +2539,8 @@ Material:
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
-    - m_AudioLinkCategory: 1
-    - m_OutlineCategory: 0
+    - m_AudioLinkCategory: 0
+    - m_OutlineCategory: 1
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
     - m_end_Alpha: 0
@@ -2703,7 +2676,7 @@ Material:
     - m_end_vertexGlitching: 0
     - m_end_vertexManipulation: 0
     - m_end_videoEffects: 0
-    - m_lightingCategory: 1
+    - m_lightingCategory: 0
     - m_mainCategory: 0
     - m_modifierCategory: 0
     - m_renderingCategory: 0
@@ -2783,7 +2756,7 @@ Material:
     - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 0
     - m_start_RGBMask: 0
-    - m_start_Rim2AudioLink: 1
+    - m_start_Rim2AudioLink: 0
     - m_start_RimAudioLink: 0
     - m_start_SphericalDissolve: 0
     - m_start_StencilPassBackOptions: 0
@@ -2802,7 +2775,7 @@ Material:
     - m_start_UVTileDissolveRow3: 0
     - m_start_VideoSettings: 0
     - m_start_alphaBlending: 0
-    - m_start_audioLink: 1
+    - m_start_audioLink: 0
     - m_start_backFace: 0
     - m_start_backlight: 0
     - m_start_blending: 0
@@ -2831,7 +2804,7 @@ Material:
     - m_start_pointToPoint: 0
     - m_start_postprocess: 0
     - m_start_reflectionRim: 0
-    - m_start_rim2LightOptions: 1
+    - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 0
     - m_start_stylizedSpec: 0
     - m_start_subsurfaceScattering: 0
@@ -3143,7 +3116,7 @@ Material:
     - s_start_MultilayerMathBorderMap: 0
     - s_start_OutlineAlphaDistanceFade: 0
     - s_start_OutlineColorAdjust: 0
-    - s_start_OutlineFixedSize: 0
+    - s_start_OutlineFixedSize: 1
     - s_start_OutlineLighting: 0
     - s_start_OutlineRenderingOptions: 0
     - s_start_PBRSecondSpecular: 0
@@ -3285,8 +3258,8 @@ Material:
     - _AudioLinkPathWidthOffsetG: {r: 0, g: 0, b: 0, a: 1}
     - _AudioLinkPathWidthOffsetR: {r: 0, g: 0, b: 0, a: 1}
     - _AudioLinkRim2BrightnessAdd: {r: 0, g: 0, b: 0, a: 0}
-    - _AudioLinkRim2EmissionAdd: {r: 0, g: 10, b: 0, a: 0}
-    - _AudioLinkRim2WidthAdd: {r: 0, g: 0.8, b: 0, a: 0}
+    - _AudioLinkRim2EmissionAdd: {r: 0, g: 0, b: 0, a: 0}
+    - _AudioLinkRim2WidthAdd: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkRimBrightnessAdd: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkRimEmissionAdd: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkRimWidthAdd: {r: 0, g: 0, b: 0, a: 0}
@@ -3458,7 +3431,7 @@ Material:
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingWrappedColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}
@@ -3545,7 +3518,7 @@ Material:
     - _Rim2Color: {r: 0.65999997, g: 0.5, b: 0.47999996, a: 1}
     - _Rim2ColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _Rim2IndirColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Rim2LightColor: {r: 0, g: 0.57254905, b: 0.8509804, a: 1}
+    - _Rim2LightColor: {r: 1, g: 1, b: 1, a: 1}
     - _Rim2MaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _Rim2ShadowAlpha: {r: 0, g: 0, b: 0, a: 1}
     - _Rim2TexPan: {r: 0, g: 0, b: 0, a: 0}

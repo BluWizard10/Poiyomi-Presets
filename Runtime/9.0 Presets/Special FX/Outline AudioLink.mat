@@ -26,6 +26,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap:
     _AudioLinkAnimToggleAnimated: 1
+    _AudioLinkAnimToggle_isPreset: true
     _AudioLinkOutlineColorBand_isPreset: true
     _AudioLinkOutlineColorMod_isPreset: true
     _AudioLinkOutlineColor_isPreset: true
@@ -307,6 +308,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainGradationTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -500,6 +505,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shadow3rdColorTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowBorderMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -852,6 +861,7 @@ Material:
     - _ClothMetallicSmoothnessMapUV: 0
     - _ClothReflectance: 0.5
     - _ClothSmoothness: 0.5
+    - _ColorGradingToggle: 0
     - _ColorMask: 15
     - _ColorThemeIndex: 0
     - _ContinuousDissolve: 0
@@ -892,6 +902,7 @@ Material:
     - _Decal0ChannelSeparationPremultiply: 0
     - _Decal0ChannelSeparationVertical: 0
     - _Decal0Depth: 0
+    - _Decal0FaceMask: 0
     - _Decal0GlobalMask: 0
     - _Decal0GlobalMaskBlendType: 2
     - _Decal0HueAngleStrength: 0
@@ -907,6 +918,7 @@ Material:
     - _Decal1ChannelSeparationPremultiply: 0
     - _Decal1ChannelSeparationVertical: 0
     - _Decal1Depth: 0
+    - _Decal1FaceMask: 0
     - _Decal1GlobalMask: 0
     - _Decal1GlobalMaskBlendType: 2
     - _Decal1HueAngleStrength: 0
@@ -922,6 +934,7 @@ Material:
     - _Decal2ChannelSeparationPremultiply: 0
     - _Decal2ChannelSeparationVertical: 0
     - _Decal2Depth: 0
+    - _Decal2FaceMask: 0
     - _Decal2GlobalMask: 0
     - _Decal2GlobalMaskBlendType: 2
     - _Decal2HueAngleStrength: 0
@@ -937,6 +950,7 @@ Material:
     - _Decal3ChannelSeparationPremultiply: 0
     - _Decal3ChannelSeparationVertical: 0
     - _Decal3Depth: 0
+    - _Decal3FaceMask: 0
     - _Decal3GlobalMask: 0
     - _Decal3GlobalMaskBlendType: 2
     - _Decal3HueAngleStrength: 0
@@ -1717,6 +1731,7 @@ Material:
     - _MainBrightnessGlobalMaskBlendType: 2
     - _MainColorAdjustTextureUV: 0
     - _MainColorAdjustToggle: 0
+    - _MainGradationStrength: 0
     - _MainHueALCTEnabled: 0
     - _MainHueALMotionSpeed: 1
     - _MainHueGlobalMask: 0
@@ -2324,10 +2339,14 @@ Material:
     - _Shadow3rdReceive: 0
     - _ShadowBlur: 0.1
     - _ShadowBorder: 0.5
+    - _ShadowBorderMapToggle: 0
+    - _ShadowBorderMaskLOD: 0
+    - _ShadowBorderMaskUV: 0
     - _ShadowBorderRange: 0
     - _ShadowColorTexUV: 0
     - _ShadowMainStrength: 0
     - _ShadowOffset: 0
+    - _ShadowPostAO: 0
     - _ShadowReceive: 0
     - _ShadowStrength: 1
     - _SkinThicknessMapInvert: 0
@@ -2603,6 +2622,7 @@ Material:
     - m_end_OutlineStencil: 0
     - m_end_OutlineStencilPassBackOptions: 0
     - m_end_OutlineStencilPassFrontOptions: 0
+    - m_end_PPAnimations: 0
     - m_end_PathAudioLink: 0
     - m_end_PoiGlobalCategory: 0
     - m_end_PoiLightData: 0
@@ -2651,6 +2671,7 @@ Material:
     - m_end_matcap: 0
     - m_end_mirrorOptions: 0
     - m_end_normalCorrect: 0
+    - m_end_outlineAlphaBlending: 0
     - m_end_outlineBlending: 0
     - m_end_parallax: 0
     - m_end_pathing: 0
@@ -2741,6 +2762,7 @@ Material:
     - m_start_OutlineStencil: 0
     - m_start_OutlineStencilPassBackOptions: 0
     - m_start_OutlineStencilPassFrontOptions: 0
+    - m_start_PPAnimations: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 0
@@ -2789,6 +2811,7 @@ Material:
     - m_start_matcap: 0
     - m_start_mirrorOptions: 0
     - m_start_normalCorrect: 0
+    - m_start_outlineAlphaBlending: 0
     - m_start_outlineBlending: 0
     - m_start_parallax: 0
     - m_start_pathing: 0
@@ -2826,6 +2849,7 @@ Material:
     - s_end_BackfaceMods: 0
     - s_end_CCopt: 1
     - s_end_ClearCoatTPSMaskGroup: 0
+    - s_end_ColorAdjustColorGrading: 0
     - s_end_ContinuousRotation: 0
     - s_end_CubeMapColorAdjust: 0
     - s_end_CubeMapMasking: 0
@@ -2908,11 +2932,14 @@ Material:
     - s_end_Matcap2Masking: 0
     - s_end_Matcap2Normal: 0
     - s_end_Matcap2Smoothness: 0
+    - s_end_Matcap2TPSMaskGroup: 0
     - s_end_Matcap3Blending: 0
     - s_end_Matcap3HueShift: 0
     - s_end_Matcap3Masking: 0
     - s_end_Matcap3Normal: 0
     - s_end_Matcap3Smoothness: 0
+    - s_end_Matcap3TPSMaskGroup: 0
+    - s_end_Matcap4TPSMaskGroup: 0
     - s_end_MatcapHueShift: 0
     - s_end_MatcapNormal: 0
     - s_end_MatcapSmoothness: 0
@@ -2921,6 +2948,7 @@ Material:
     - s_end_MultilayerMath1stLayer: 1
     - s_end_MultilayerMath2ndLayer: 0
     - s_end_MultilayerMath3rdLayer: 0
+    - s_end_MultilayerMathBorderMap: 1
     - s_end_OutlineAlphaDistanceFade: 0
     - s_end_OutlineColorAdjust: 0
     - s_end_OutlineFixedSize: 0
@@ -2942,6 +2970,7 @@ Material:
     - s_end_RimLight0LightDirMask: 0
     - s_end_RimLight0ShapeControls: 0
     - s_end_RimLight1Color: 0
+    - s_end_RimLight1GlobalMasking: 0
     - s_end_RimLight1HueShift: 0
     - s_end_RimLight1LightDirMask: 0
     - s_end_RimLight1ShapeControls: 0
@@ -2999,6 +3028,7 @@ Material:
     - s_start_BackfaceMods: 0
     - s_start_CCopt: 1
     - s_start_ClearCoatTPSMaskGroup: 0
+    - s_start_ColorAdjustColorGrading: 0
     - s_start_ContinuousRotation: 0
     - s_start_CubeMapColorAdjust: 0
     - s_start_CubeMapMasking: 1
@@ -3081,11 +3111,14 @@ Material:
     - s_start_Matcap2Masking: 1
     - s_start_Matcap2Normal: 0
     - s_start_Matcap2Smoothness: 0
+    - s_start_Matcap2TPSMaskGroup: 0
     - s_start_Matcap3Blending: 1
     - s_start_Matcap3HueShift: 0
     - s_start_Matcap3Masking: 1
     - s_start_Matcap3Normal: 0
     - s_start_Matcap3Smoothness: 0
+    - s_start_Matcap3TPSMaskGroup: 0
+    - s_start_Matcap4TPSMaskGroup: 0
     - s_start_MatcapHueShift: 0
     - s_start_MatcapNormal: 0
     - s_start_MatcapSmoothness: 0
@@ -3094,6 +3127,7 @@ Material:
     - s_start_MultilayerMath2ndLayer: 0
     - s_start_MultilayerMath3rdLayer: 0
     - s_start_MultilayerMathBorder: 1
+    - s_start_MultilayerMathBorderMap: 0
     - s_start_OutlineAlphaDistanceFade: 0
     - s_start_OutlineColorAdjust: 0
     - s_start_OutlineFixedSize: 1
@@ -3522,7 +3556,10 @@ Material:
     - _Shadow2ndColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow3rdColor: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow3rdColorTexPan: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowAOShift: {r: 0, g: 1, b: 0, a: 1}
+    - _ShadowAOShift2: {r: 0, g: 1, b: 0, a: 1}
     - _ShadowBorderColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowBorderMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowColor: {r: 0.7, g: 0.75, b: 0.85, a: 1}
     - _ShadowColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _SkinThicknessMapPan: {r: 0, g: 0, b: 0, a: 0}
