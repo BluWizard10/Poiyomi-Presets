@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Genshin
+  m_Name: Toon Cel Style
   m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -88,7 +88,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/9.0/Shading/Genshin Style Redux
+    presetName: BluWizard's Presets/9.0/Shading/Toon Cel Style
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:

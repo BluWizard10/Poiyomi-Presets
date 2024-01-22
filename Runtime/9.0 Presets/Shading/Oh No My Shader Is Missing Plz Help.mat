@@ -39,8 +39,7 @@ Material:
     _EnableGITDEmission_isPreset: true
     _ScrollingEmission_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/9.0/Shading/Do Not Open/I'm warning you/You don't
-      wanna do this/Are you sure/You REALLY sure/Well if you insist/Be Pink Do Crimes
+    presetName: BluWizard's Presets/9.0/Do Not Open/I'm warning you/You don't wanna do this/Are you sure/You REALLY sure/Well if you insist/Be Pink Do Crimes
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
