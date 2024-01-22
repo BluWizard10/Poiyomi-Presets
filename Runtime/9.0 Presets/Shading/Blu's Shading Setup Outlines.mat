@@ -109,6 +109,7 @@ Material:
     _Shadow3rdReceive_isPreset: true
     _ShadowBlur_isPreset: true
     _ShadowBorderColor_isPreset: true
+    _ShadowBorderMapToggle_isPreset: true
     _ShadowBorderRange_isPreset: true
     _ShadowBorder_isPreset: true
     _ShadowColorTex_isPreset: true
