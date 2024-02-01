@@ -1437,6 +1437,7 @@ Material:
     - _GlitterHueShiftSpeed: 0
     - _GlitterJaggyFix: 0
     - _GlitterJitter: 1
+    - _GlitterLayers: 2
     - _GlitterMaskChannel: 0
     - _GlitterMaskGlobalMask: 0
     - _GlitterMaskGlobalMaskBlendType: 2
@@ -1445,8 +1446,10 @@ Material:
     - _GlitterMinBrightness: 0
     - _GlitterMode: 0
     - _GlitterRandomColors: 0
+    - _GlitterRandomLocation: 1
     - _GlitterRandomRotation: 0
     - _GlitterRandomSize: 0
+    - _GlitterScaleWithLighting: 0
     - _GlitterShape: 0
     - _GlitterSize: 0.3
     - _GlitterSpeed: 10
@@ -2989,6 +2992,12 @@ Material:
     - s_end_FlipbookHueShift: 0
     - s_end_FlipbookManualFrameControl: 0
     - s_end_FlipbookStartAndEnd: 0
+    - s_end_GlitterColorAndShape: 0
+    - s_end_GlitterHueShiftSection: 0
+    - s_end_GlitterMask: 0
+    - s_end_GlitterPositionSize: 0
+    - s_end_GlitterRotationSection: 0
+    - s_end_GlitterSparkleControl: 0
     - s_end_GlobalMaskOptionsForceToggles: 0
     - s_end_GlobalMaskOptionsMinMaxSliders: 0
     - s_end_GlobalMaskOptionsSliders: 0
@@ -3028,6 +3037,7 @@ Material:
     - s_end_MultilayerMath1stLayer: 1
     - s_end_MultilayerMath2ndLayer: 0
     - s_end_MultilayerMath3rdLayer: 0
+    - s_end_MultilayerMathBorder: 1
     - s_end_MultilayerMathBorderMap: 1
     - s_end_OutlineAlphaDistanceFade: 0
     - s_end_OutlineColorAdjust: 0
@@ -3168,6 +3178,12 @@ Material:
     - s_start_FlipbookHueShift: 0
     - s_start_FlipbookManualFrameControl: 0
     - s_start_FlipbookStartAndEnd: 0
+    - s_start_GlitterColorAndShape: 1
+    - s_start_GlitterHueShiftSection: 0
+    - s_start_GlitterMask: 0
+    - s_start_GlitterPositionSize: 1
+    - s_start_GlitterRotationSection: 0
+    - s_start_GlitterSparkleControl: 1
     - s_start_GlobalMaskOptionsForceToggles: 0
     - s_start_GlobalMaskOptionsMinMaxSliders: 0
     - s_start_GlobalMaskOptionsSliders: 0
@@ -3460,6 +3476,7 @@ Material:
     - _GlitterMinMaxSaturation: {r: 0.8, g: 1, b: 0, a: 1}
     - _GlitterMinMaxSize: {r: 0.1, g: 0.5, b: 0, a: 1}
     - _GlitterPan: {r: 0, g: 0, b: 0, a: 0}
+    - _GlitterRandomRotationSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterUVPanning: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalMaskMinMaxSlider_0: {r: 0, g: 1, b: 0, a: 1}

@@ -1,10 +1,10 @@
 # v2.0.0
-## MAJOR UPDATE! PLEASE UPGRADE POIYOMI TOON SHADER TO 9.0 IN ORDER FOR ALL PRESETS TO UPDATE CORRECTLY!
+## MAJOR UPDATE! PLEASE UPGRADE TO POIYOMI TOON SHADER VERSION 9.0 IN ORDER FOR ALL PRESETS TO UPDATE CORRECTLY!
 
 - Added support for Poiyomi Toon v9.0 with fresh new presets, some of which are exclusive to 9.0!
     - `9.0/AudioLink/Outline Glow & Color Change` is exactly what it sounds like. You can now make your Outlines do some awesome AudioLink magic in 9.0! For demonstration purposes, this Preset will change the color to Blue and pulse the Outline Emission when the Bass hits (you can change this if you want). Try it out!
     - `9.0/AudioLink/Bass Wave [Rim Lighting 1]` enables a fun Rim Lighting effect that will increase in width with Emission when the Bass hits.
-    - `9.0/Quick Fixes/Enable Lighting in Mirrors` will enable a simple checkmark that fixes an issue where your Avatar's Lighting does not appear correctly in VRChat Mirrors. Useless, since it's enabled by default in 9.0 already but I added it anyway.
+    - `9.0/Quick Fixes/Enable Lighting in Mirrors` will enable a simple checkmark that fixes an issue where your Avatar's Lighting does not appear correctly in VRChat Mirrors.
     - `9.0/Shading/Toon Cel Style` is the sequel to `Anime Style Redux`. Cel Shading for Poiyomi Toon Shader!
 - Reorganized all Preset Names to indicate which Poiyomi versions the Presets support. They are now sorted under `BluWizard's Presets/8.1` and `BluWizard's Presets/9.0` respectively.
 - Fixed `9.0/Shading/Blu's Shading Setup` having no Point Light Passthrough.
