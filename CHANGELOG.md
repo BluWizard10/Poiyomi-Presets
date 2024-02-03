@@ -1,4 +1,4 @@
-# v2.0.0
+# v1.5.0
 ## MAJOR UPDATE! PLEASE UPGRADE TO POIYOMI TOON SHADER VERSION 9.0 IN ORDER FOR ALL PRESETS TO UPDATE CORRECTLY!
 
 - Added support for Poiyomi Toon v9.0 with fresh new presets, some of which are exclusive to 9.0!
