@@ -1,6 +1,6 @@
 ![Header Image](/Images/Blu-Poiyomi-Presets-Header-Image.png)
 
-# [📦 Add Blu's Poiyomi Presets to Creator Companion](https://vpm.bluwizard.net/)
+# [📦 Add "BluWizard LABS - Poiyomi Presets" to Creator Companion](https://vpm.bluwizard.net/)
 
 # BluWizard's Collection of Poiyomi Presets
 
@@ -13,11 +13,11 @@ This VCC Community Repository is a neat collection of Presets made for Poiyomi T
 - and more!
 
 ### Requirements
-- [Poiyomi Toon v8.1.166 or newer (v9.0.30+ Recommended)](https://poiyomi.com/#downloads)
+- [Poiyomi Toon v9.0.30 or newer](https://poiyomi.com/#downloads)
 
 ### How To Use
 1. [Add my VPM Repository to the Creator Companion.](https://vpm.bluwizard.net/)
-2. Add "Blu's Poiyomi Presets" to your Project.
+2. Add "BluWizard LABS - Poiyomi Presets" to your Project.
 3. In your Material Inspector, click this little icon right here to find them.
 ![Where to find Presets](/Images/Step1_Unity_KBPaVwusn1.png)
 4. My Presets will be categorized under `BluWizard's Presets`. Checkmark which one you like to preview. If you like it, hit "Apply" to use it in your Material.
