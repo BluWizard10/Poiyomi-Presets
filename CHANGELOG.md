@@ -1,3 +1,10 @@
+# v1.5.2
+- Added `9.0/Shading/Mayu Style` which is a unique Multilayer Math Shading Preset. In addition, it uses a neat Skin-like Matcap, Environmental Rim, and Proximity Color. This shading style is heavily inspired by the shading setup used on the Mayu Avatar Base by AzukiTiger (go support them by buying the Avatar!).
+- Fixed the included Fallback Cubemap not using Specular Convolution and Trilinear Filtering Mode. The Fallback should now look correct.
+
+# v1.5.1
+- Nothing. Just updated the Package Display Name to reflect the BluWizard LABS branding.
+
 # v1.5.0
 ## MAJOR UPDATE! PLEASE UPGRADE TO POIYOMI TOON SHADER VERSION 9.0 IN ORDER FOR ALL PRESETS TO UPDATE CORRECTLY!
 
