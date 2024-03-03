@@ -1,3 +1,9 @@
+# v1.5.3
+- Added `9.0/Special FX/Glasses Lens`.
+- Adjusted `9.0/AudioLink/Outline Color Change Hue` to also include the Color Shift as well, because why not. It looks cool!
+- Renamed `9.0/Special FX/Emission/Glowy Sweet Spot` to `9.0/Special FX/Glowy Sweet Spot [Emission]`.
+- Fixed `9.0/Shading/Blu's Shading Setup v5.0 Outlines` to stop including the Outline Size from being applied.
+
 # v1.5.2
 - Added `9.0/Shading/Mayu Style` which is a unique Multilayer Math Shading Preset. In addition, it uses a neat Skin-like Matcap, Environmental Rim, and Proximity Color. This shading style is heavily inspired by the shading setup used on the Mayu Avatar Base by AzukiTiger (go support them by buying the Avatar!).
 - Fixed the included Fallback Cubemap not using Specular Convolution and Trilinear Filtering Mode. The Fallback should now look correct.
