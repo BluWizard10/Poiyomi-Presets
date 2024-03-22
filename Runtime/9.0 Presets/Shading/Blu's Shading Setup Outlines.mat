@@ -1309,6 +1309,10 @@ Material:
     - _EmissionReplace1: 0
     - _EmissionReplace2: 0
     - _EmissionReplace3: 0
+    - _EmissionSaturation: 0
+    - _EmissionSaturation1: 0
+    - _EmissionSaturation2: 0
+    - _EmissionSaturation3: 0
     - _EmissionScrollingOffset: 0
     - _EmissionScrollingOffset1: 0
     - _EmissionScrollingOffset2: 0
@@ -1822,7 +1826,7 @@ Material:
     - _LightingIgnoreAmbientColor: 0.2
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
-    - _LightingMinLightBrightness: 0.4
+    - _LightingMinLightBrightness: 0.05
     - _LightingMirrorVertexLightingEnabled: 1
     - _LightingMode: 1
     - _LightingMonochromatic: 0.5
