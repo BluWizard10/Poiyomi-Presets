@@ -13,6 +13,8 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
+  - POI_ENVIRORIM
+  - POI_MATCAP0
   - VIGNETTE_MASKED
   - _GLOSSYREFLECTIONS_OFF
   - _LIGHTINGMODE_MULTILAYER_MATH
@@ -23,10 +25,12 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
+    RenderType: Opaque
     VRCFallback: Toon
     _DisableDirectionalInAdd_isPreset: true
+    _EnableEnvironmentalRim_isPreset: true
     _EnableRimLighting_isPreset: true
     _Is_NormalMapToRimLight_isPreset: true
     _LightingAdditiveCastedShadows_isPreset: true
@@ -43,6 +47,7 @@ Material:
     _LightingDirectionMode_isPreset: true
     _LightingForceColorEnabled_isPreset: true
     _LightingIgnoreAmbientColor_isPreset: true
+    _LightingIndirectUsesNormals_isPreset: true
     _LightingMapMode_isPreset: true
     _LightingMinLightBrightness_isPreset: true
     _LightingMirrorVertexLightingEnabled_isPreset: true
@@ -50,10 +55,41 @@ Material:
     _LightingMonochromatic_isPreset: true
     _LightingMulitlayerNonLinear_isPreset: true
     _LightingVertexLightingEnabled_isPreset: true
+    _Matcap0CustomNormal_isPreset: true
+    _MatcapAddToLight_isPreset: true
+    _MatcapAdd_isPreset: true
+    _MatcapAlphaOverride_isPreset: true
+    _MatcapApplyToAlphaEnabled_isPreset: true
+    _MatcapBaseColorMix_isPreset: true
+    _MatcapColor_isPreset: true
+    _MatcapEmissionStrength_isPreset: true
+    _MatcapEnable_isPreset: true
+    _MatcapHueShiftEnabled_isPreset: true
+    _MatcapIntensity_isPreset: true
+    _MatcapLightMask_isPreset: true
+    _MatcapMaskGlobalMask_isPreset: true
+    _MatcapMask_isPreset: true
+    _MatcapMixed_isPreset: true
+    _MatcapMultiply_isPreset: true
+    _MatcapNormal_isPreset: true
+    _MatcapReplace_isPreset: true
+    _MatcapScreen_isPreset: true
+    _MatcapSmoothnessEnabled_isPreset: true
+    _MatcapUVMode_isPreset: true
+    _Matcap_isPreset: true
     _MultilayerMathBlurMap_isPreset: true
+    _RimApplyAlphaBlend_isPreset: true
+    _RimApplyAlpha_isPreset: true
+    _RimApplyGlobalMaskIndex_isPreset: true
     _RimBaseColorMix_isPreset: true
     _RimBlendStrength_isPreset: true
     _RimBrightness_isPreset: true
+    _RimEnviroBlur_isPreset: true
+    _RimEnviroIntensity_isPreset: true
+    _RimEnviroMask_isPreset: true
+    _RimEnviroMinBrightness_isPreset: true
+    _RimEnviroSharpness_isPreset: true
+    _RimEnviroWidth_isPreset: true
     _RimGlobalMask_isPreset: true
     _RimHueShiftEnabled_isPreset: true
     _RimLightColor_isPreset: true
@@ -68,6 +104,8 @@ Material:
     _RimTex_isPreset: true
     _RimWidth_isPreset: true
     _ShadingEnabled_isPreset: true
+    _ShadingRampedLightMapApplyGlobalMaskIndex_isPreset: true
+    _ShadingRampedLightMapInverseApplyGlobalMaskIndex_isPreset: true
     _Shadow2ndBlur_isPreset: true
     _Shadow2ndBorder_isPreset: true
     _Shadow2ndColorTex_isPreset: true
@@ -89,7 +127,7 @@ Material:
     _ShadowReceive_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/9.0/Shading/Blu's Shading Setup v5.0
+    presetName: BluWizard's Presets/9.0/Shading/Blu's Shading Setup v6.0
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -368,7 +406,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a59a5be775b6cb24aa41aee1e7429898, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap0NormalMap:
@@ -1339,7 +1377,7 @@ Material:
     - _EnableEmission1: 0
     - _EnableEmission2: 0
     - _EnableEmission3: 0
-    - _EnableEnvironmentalRim: 0
+    - _EnableEnvironmentalRim: 1
     - _EnableFlipbook: 0
     - _EnableGITDEmission: 0
     - _EnableGITDEmission1: 0
@@ -1778,32 +1816,32 @@ Material:
     - _LightingAdditiveGradientStart: 0
     - _LightingAdditiveLimit: 8
     - _LightingAdditiveLimited: 1
-    - _LightingAdditiveMonochromatic: 0
-    - _LightingAdditivePassthrough: 0.5
+    - _LightingAdditiveMonochromatic: 0.1
+    - _LightingAdditivePassthrough: 0.005
     - _LightingAdditiveType: 3
-    - _LightingCap: 1.5
+    - _LightingCap: 3
     - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0
-    - _LightingColorMode: 3
+    - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
     - _LightingDetailShadowMapsUV: 0
     - _LightingDetailShadowStrengthA: 0
     - _LightingDetailShadowStrengthB: 0
     - _LightingDetailShadowStrengthG: 0
     - _LightingDetailShadowStrengthR: 1
-    - _LightingDirectionMode: 4
+    - _LightingDirectionMode: 0
     - _LightingForceColorEnabled: 0
     - _LightingForcedColorThemeIndex: 0
     - _LightingGradientEnd: 0.5
     - _LightingGradientStart: 0
-    - _LightingIgnoreAmbientColor: 0.2
+    - _LightingIgnoreAmbientColor: 0.5
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0.05
     - _LightingMirrorVertexLightingEnabled: 1
     - _LightingMode: 1
-    - _LightingMonochromatic: 0.5
-    - _LightingMulitlayerNonLinear: 0
+    - _LightingMonochromatic: 0.1
+    - _LightingMulitlayerNonLinear: 1
     - _LightingShadowMaskStrengthA: 0
     - _LightingShadowMaskStrengthB: 0
     - _LightingShadowMaskStrengthG: 0
@@ -1990,23 +2028,23 @@ Material:
     - _Matcap4TPSMaskStrength: 1
     - _Matcap4UVMode: 1
     - _Matcap4UVToBlend: 1
-    - _MatcapAdd: 0
+    - _MatcapAdd: 0.4
     - _MatcapAddToLight: 0
     - _MatcapAlphaOverride: 0
     - _MatcapApplyToAlphaBlendType: 0
     - _MatcapApplyToAlphaBlending: 1
     - _MatcapApplyToAlphaEnabled: 0
     - _MatcapApplyToAlphaSourceBlend: 0
-    - _MatcapBaseColorMix: 0
+    - _MatcapBaseColorMix: 1
     - _MatcapBorder: 0.43
     - _MatcapColorThemeIndex: 0
     - _MatcapEmissionStrength: 0
-    - _MatcapEnable: 0
+    - _MatcapEnable: 1
     - _MatcapHueShift: 0
     - _MatcapHueShiftEnabled: 0
     - _MatcapHueShiftSpeed: 0
     - _MatcapIntensity: 1
-    - _MatcapLightMask: 0
+    - _MatcapLightMask: 0.5
     - _MatcapMaskChannel: 0
     - _MatcapMaskGlobalMask: 0
     - _MatcapMaskGlobalMaskBlendType: 2
@@ -2014,17 +2052,17 @@ Material:
     - _MatcapMaskSmoothnessApply: 0
     - _MatcapMaskSmoothnessChannel: 3
     - _MatcapMaskUV: 0
-    - _MatcapMixed: 0
+    - _MatcapMixed: 0.4
     - _MatcapMultiply: 0
-    - _MatcapNormal: 1
-    - _MatcapReplace: 1
+    - _MatcapNormal: 0.75
+    - _MatcapReplace: 0
     - _MatcapRotation: 0
-    - _MatcapScreen: 0
+    - _MatcapScreen: 0.2
     - _MatcapSmoothness: 1
     - _MatcapSmoothnessEnabled: 0
     - _MatcapTPSDepthEnabled: 0
     - _MatcapTPSMaskStrength: 1
-    - _MatcapUVMode: 1
+    - _MatcapUVMode: 2
     - _MatcapUVToBlend: 1
     - _Metallic: 0
     - _Mirror: 0
@@ -2382,11 +2420,11 @@ Material:
     - _RimEnableLighting: 1
     - _RimEnviroBlur: 0.7
     - _RimEnviroChannel: 0
-    - _RimEnviroIntensity: 1
+    - _RimEnviroIntensity: 0.25
     - _RimEnviroMaskUV: 0
-    - _RimEnviroMinBrightness: 0
+    - _RimEnviroMinBrightness: 0.1
     - _RimEnviroSharpness: 0
-    - _RimEnviroWidth: 0.45
+    - _RimEnviroWidth: 0.6
     - _RimFresnelPower: 3.5
     - _RimGlobalMask: 0
     - _RimGlobalMaskBlendType: 2
@@ -2452,12 +2490,12 @@ Material:
     - _ShadingRampedLightMapInverseApplyGlobalMaskBlendType: 2
     - _ShadingRampedLightMapInverseApplyGlobalMaskIndex: 0
     - _ShadingShadeMapBlendType: 0
-    - _Shadow2ndBlur: 0.3
-    - _Shadow2ndBorder: 0.5
+    - _Shadow2ndBlur: 0.4
+    - _Shadow2ndBorder: 0.3
     - _Shadow2ndColorTexUV: 0
     - _Shadow2ndReceive: 0
-    - _Shadow3rdBlur: 0.1
-    - _Shadow3rdBorder: 0.25
+    - _Shadow3rdBlur: 0.2
+    - _Shadow3rdBorder: 0.1
     - _Shadow3rdColorTexUV: 0
     - _Shadow3rdReceive: 0
     - _ShadowBlur: 1
@@ -2467,11 +2505,11 @@ Material:
     - _ShadowBorderMaskUV: 0
     - _ShadowBorderRange: 0
     - _ShadowColorTexUV: 0
-    - _ShadowMainStrength: 0.17
+    - _ShadowMainStrength: 1
     - _ShadowOffset: 0
     - _ShadowPostAO: 0
     - _ShadowReceive: 0
-    - _ShadowStrength: 1
+    - _ShadowStrength: 0.75
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
@@ -2954,7 +2992,7 @@ Material:
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_internalparallax: 0
-    - m_start_matcap: 0
+    - m_start_matcap: 1
     - m_start_mirrorOptions: 0
     - m_start_normalCorrect: 0
     - m_start_outlineAlphaBlending: 0
@@ -2963,7 +3001,7 @@ Material:
     - m_start_pathing: 0
     - m_start_pointToPoint: 0
     - m_start_postprocess: 0
-    - m_start_reflectionRim: 0
+    - m_start_reflectionRim: 1
     - m_start_rim2LightOptions: 0
     - m_start_rimLight1Options: 1
     - m_start_stylizedSpec: 0
@@ -3332,7 +3370,7 @@ Material:
     - s_start_RimLightDirectionMask: 0
     - s_start_ScrollingEmission0: 0
     - s_start_ShadingAddPass: 1
-    - s_start_ShadingGlobalMask: 0
+    - s_start_ShadingGlobalMask: 1
     - s_start_StylizedSpecularAdvanced: 0
     - s_start_StylizedSpecularLayer0: 1
     - s_start_StylizedSpecularLayer1: 1
@@ -3360,7 +3398,7 @@ Material:
     - s_start_matcap1ApplyToAlpha: 0
     - s_start_matcap2ApplyToAlpha: 0
     - s_start_matcap3ApplyToAlpha: 0
-    - s_start_matcapApplyToAlpha: 0
+    - s_start_matcapApplyToAlpha: 1
     - s_start_outline_al_color: 0
     - s_start_vertexRounding: 0
     - s_start_vertexRoundingAL: 0
@@ -3746,13 +3784,13 @@ Material:
     - _Set_HighColorMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _Set_Rim2LightMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _Set_RimLightMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Shadow2ndColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow2ndColor: {r: 0.47058824, g: 0.49803922, b: 0.5568628, a: 1}
     - _Shadow2ndColorTexPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Shadow3rdColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow3rdColor: {r: 0.20784314, g: 0.22745098, b: 0.2627451, a: 1}
     - _Shadow3rdColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowAOShift: {r: 0, g: 1, b: 0, a: 1}
     - _ShadowAOShift2: {r: 0, g: 1, b: 0, a: 1}
-    - _ShadowBorderColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ShadowBorderColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowBorderMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowColor: {r: 0.7, g: 0.75, b: 0.85, a: 1}
     - _ShadowColorTexPan: {r: 0, g: 0, b: 0, a: 0}

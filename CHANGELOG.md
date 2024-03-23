@@ -1,3 +1,13 @@
+# v1.6.0
+- Changed `9.0/Shading/Blu's Shading Setup v6.0` and `9.0/Shading/Blu's Shading Setup v6.0 Outlines Combo` to my latest updated setup.
+    - This increment to v1.6 is a self-note to indicate the major changes I made to my personal Shading settings.
+
+# v1.5.5
+- Added `9.0/Shading/Smoothed Mayu Style`, a more smoothed version of `Mayu Style`.
+
+# v1.5.4
+- Updated some Presets to current.
+
 # v1.5.3
 - Added `9.0/Special FX/Glasses Lens`.
 - Adjusted `9.0/AudioLink/Outline Color Change Hue` to also include the Color Shift as well, because why not. It looks cool!
