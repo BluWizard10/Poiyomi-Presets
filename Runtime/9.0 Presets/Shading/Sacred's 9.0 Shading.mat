@@ -28,9 +28,13 @@ Material:
     _DisableDirectionalInAdd_isPreset: true
     _LightingAdditiveCastedShadows_isPreset: true
     _LightingAdditiveEnable_isPreset: true
+    _LightingAdditiveLimit_isPreset: true
+    _LightingAdditiveLimited_isPreset: true
     _LightingAdditiveMonochromatic_isPreset: true
     _LightingAdditivePassthrough_isPreset: true
     _LightingAdditiveType_isPreset: true
+    _LightingCapEnabled_isPreset: true
+    _LightingCap_isPreset: true
     _LightingCastedShadows_isPreset: true
     _LightingColorMode_isPreset: true
     _LightingDirectionMode_isPreset: true
@@ -1761,13 +1765,13 @@ Material:
     - _LightingAdditiveEnable: 1
     - _LightingAdditiveGradientEnd: 0.5
     - _LightingAdditiveGradientStart: 0
-    - _LightingAdditiveLimit: 1
-    - _LightingAdditiveLimited: 0
+    - _LightingAdditiveLimit: 3
+    - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0
     - _LightingAdditivePassthrough: 0.5
     - _LightingAdditiveType: 3
-    - _LightingCap: 1.2
-    - _LightingCapEnabled: 0
+    - _LightingCap: 3
+    - _LightingCapEnabled: 1
     - _LightingCastedShadows: 0.4
     - _LightingColorMode: 0
     - _LightingDebugVisualize: 0
