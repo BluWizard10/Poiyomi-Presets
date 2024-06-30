@@ -1,3 +1,6 @@
+# v1.6.1
+- Added `9.0/Shading/Sacred's Realistic`, reflecting the Wrapped Shading setup that is similar to how Sacred sets it up.
+
 # v1.6.0
 - Changed `9.0/Shading/Blu's Shading Setup v6.0` and `9.0/Shading/Blu's Shading Setup v6.0 Outlines Combo` to my latest updated setup.
     - This increment to v1.6 is a self-note to indicate the major changes I made to my personal Shading settings.
