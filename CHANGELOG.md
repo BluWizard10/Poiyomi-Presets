@@ -1,3 +1,10 @@
+# v1.7.0
+- Changed `9.0/Shading/Blu's Shading Setup v6.0` and `9.0/Shading/Blu's Shading Setup v6.0 Outlines Combo` presets to my latest updated setup. Major version increment.
+- Updated `9.0/Shading/Smoothed Mayu Style` preset.
+
+# v1.6.2
+- Re-marked some properties as Preset on `9.0/Shading/Sacred's Realistic` that I somehow forgot to do.
+
 # v1.6.1
 - Added `9.0/Shading/Sacred's Realistic`, reflecting the Wrapped Shading setup that is similar to how Sacred sets it up.
 

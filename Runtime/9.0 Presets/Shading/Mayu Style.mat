@@ -91,6 +91,8 @@ Material:
     _RimEnviroSharpness_isPreset: true
     _RimEnviroWidth_isPreset: true
     _ShadingEnabled_isPreset: true
+    _ShadingRampedLightMapApplyGlobalMaskIndex_isPreset: true
+    _ShadingRampedLightMapInverseApplyGlobalMaskIndex_isPreset: true
     _Shadow2ndBlur_isPreset: true
     _Shadow2ndBorder_isPreset: true
     _Shadow2ndColorTex_isPreset: true
@@ -988,8 +990,14 @@ Material:
     - _Decal0GlobalMaskBlendType: 2
     - _Decal0HueAngleStrength: 0
     - _Decal0MaskChannel: 0
+    - _Decal0OnlyVideo: 0
     - _Decal0OverrideAlphaMode: 0
     - _Decal0TPSMaskStrength: 1
+    - _Decal0UseDecalAlpha: 0
+    - _Decal0VideoAspectFix: 0
+    - _Decal0VideoEmissionStrength: 0
+    - _Decal0VideoEnabled: 0
+    - _Decal0VideoFitToScale: 1
     - _Decal1ApplyGlobalMaskBlendType: 0
     - _Decal1ApplyGlobalMaskIndex: 0
     - _Decal1ChannelSeparation: 0
@@ -1004,8 +1012,14 @@ Material:
     - _Decal1GlobalMaskBlendType: 2
     - _Decal1HueAngleStrength: 0
     - _Decal1MaskChannel: 1
+    - _Decal1OnlyVideo: 0
     - _Decal1OverrideAlphaMode: 0
     - _Decal1TPSMaskStrength: 1
+    - _Decal1UseDecalAlpha: 0
+    - _Decal1VideoAspectFix: 0
+    - _Decal1VideoEmissionStrength: 0
+    - _Decal1VideoEnabled: 0
+    - _Decal1VideoFitToScale: 1
     - _Decal2ApplyGlobalMaskBlendType: 0
     - _Decal2ApplyGlobalMaskIndex: 0
     - _Decal2ChannelSeparation: 0
@@ -1020,8 +1034,14 @@ Material:
     - _Decal2GlobalMaskBlendType: 2
     - _Decal2HueAngleStrength: 0
     - _Decal2MaskChannel: 2
+    - _Decal2OnlyVideo: 0
     - _Decal2OverrideAlphaMode: 0
     - _Decal2TPSMaskStrength: 1
+    - _Decal2UseDecalAlpha: 0
+    - _Decal2VideoAspectFix: 0
+    - _Decal2VideoEmissionStrength: 0
+    - _Decal2VideoEnabled: 0
+    - _Decal2VideoFitToScale: 1
     - _Decal3ApplyGlobalMaskBlendType: 0
     - _Decal3ApplyGlobalMaskIndex: 0
     - _Decal3ChannelSeparation: 0
@@ -1036,8 +1056,15 @@ Material:
     - _Decal3GlobalMaskBlendType: 2
     - _Decal3HueAngleStrength: 0
     - _Decal3MaskChannel: 3
+    - _Decal3OnlyVideo: 0
     - _Decal3OverrideAlphaMode: 0
     - _Decal3TPSMaskStrength: 1
+    - _Decal3TextureToUse: 0
+    - _Decal3UseDecalAlpha: 0
+    - _Decal3VideoAspectFix: 0
+    - _Decal3VideoEmissionStrength: 0
+    - _Decal3VideoEnabled: 0
+    - _Decal3VideoFitToScale: 1
     - _DecalBlendAlpha: 1
     - _DecalBlendAlpha1: 1
     - _DecalBlendAlpha2: 1
@@ -1405,6 +1432,7 @@ Material:
     - _FogHeightScale: 1
     - _FogScale: 1
     - _FogStartOffset: 0
+    - _ForceFlatRampedLightmap: 1
     - _ForgotToLockMaterial: 1
     - _GITDEMaxEmissionMultiplier: 0
     - _GITDEMaxEmissionMultiplier1: 0
@@ -1776,12 +1804,12 @@ Material:
     - _LightingAddDetailShadowStrengthR: 1
     - _LightingAdditiveCastedShadows: 1
     - _LightingAdditiveEnable: 1
-    - _LightingAdditiveGradientEnd: 0.5
-    - _LightingAdditiveGradientStart: 0.3
+    - _LightingAdditiveGradientEnd: 0.6
+    - _LightingAdditiveGradientStart: 0.4
     - _LightingAdditiveLimit: 3
     - _LightingAdditiveLimited: 1
     - _LightingAdditiveMonochromatic: 0.1
-    - _LightingAdditivePassthrough: 0.005
+    - _LightingAdditivePassthrough: 0.1
     - _LightingAdditiveType: 1
     - _LightingCap: 3
     - _LightingCapEnabled: 1
@@ -1992,7 +2020,7 @@ Material:
     - _Matcap4TPSMaskStrength: 1
     - _Matcap4UVMode: 1
     - _Matcap4UVToBlend: 1
-    - _MatcapAdd: 0.4
+    - _MatcapAdd: 0
     - _MatcapAddToLight: 0
     - _MatcapAlphaOverride: 0
     - _MatcapApplyToAlphaBlendType: 0
@@ -2016,12 +2044,12 @@ Material:
     - _MatcapMaskSmoothnessApply: 0
     - _MatcapMaskSmoothnessChannel: 3
     - _MatcapMaskUV: 0
-    - _MatcapMixed: 0.4
+    - _MatcapMixed: 1
     - _MatcapMultiply: 0
     - _MatcapNormal: 0.75
     - _MatcapReplace: 0
     - _MatcapRotation: 0
-    - _MatcapScreen: 0.2
+    - _MatcapScreen: 1
     - _MatcapSmoothness: 1
     - _MatcapSmoothnessEnabled: 0
     - _MatcapTPSDepthEnabled: 0
@@ -2451,26 +2479,26 @@ Material:
     - _ShadingRampedLightMapInverseApplyGlobalMaskBlendType: 2
     - _ShadingRampedLightMapInverseApplyGlobalMaskIndex: 0
     - _ShadingShadeMapBlendType: 0
-    - _Shadow2ndBlur: 0.4
-    - _Shadow2ndBorder: 0.3
+    - _Shadow2ndBlur: 0.5
+    - _Shadow2ndBorder: 0.25
     - _Shadow2ndColorTexUV: 0
-    - _Shadow2ndReceive: 1
-    - _Shadow3rdBlur: 0.2
-    - _Shadow3rdBorder: 0.1
+    - _Shadow2ndReceive: 0.75
+    - _Shadow3rdBlur: 0.25
+    - _Shadow3rdBorder: 0.125
     - _Shadow3rdColorTexUV: 0
-    - _Shadow3rdReceive: 1
-    - _ShadowBlur: 0.2
-    - _ShadowBorder: 0.6
+    - _Shadow3rdReceive: 0.5
+    - _ShadowBlur: 0.75
+    - _ShadowBorder: 0.5
     - _ShadowBorderMapToggle: 0
     - _ShadowBorderMaskLOD: 0
     - _ShadowBorderMaskUV: 0
     - _ShadowBorderRange: 0
     - _ShadowColorTexUV: 0
-    - _ShadowMainStrength: 1
+    - _ShadowMainStrength: 0.25
     - _ShadowOffset: 0
-    - _ShadowPostAO: 0
+    - _ShadowPostAO: 1
     - _ShadowReceive: 1
-    - _ShadowStrength: 0.75
+    - _ShadowStrength: 1
     - _SkinThicknessMapInvert: 0
     - _SkinThicknessMapUV: 0
     - _SkinThicknessPower: 1
@@ -2998,15 +3026,19 @@ Material:
     - s_end_Decal0ChannelSeparation: 0
     - s_end_Decal0GlobalMasking: 0
     - s_end_Decal0HueShift: 0
+    - s_end_Decal0Video: 0
     - s_end_Decal1ChannelSeparation: 0
     - s_end_Decal1GlobalMasking: 0
     - s_end_Decal1HueShift: 0
+    - s_end_Decal1Video: 0
     - s_end_Decal2ChannelSeparation: 0
     - s_end_Decal2GlobalMasking: 0
     - s_end_Decal2HueShift: 0
+    - s_end_Decal2Video: 0
     - s_end_Decal3ChannelSeparation: 0
     - s_end_Decal3GlobalMasking: 0
     - s_end_Decal3HueShift: 0
+    - s_end_Decal3Video: 0
     - s_end_DecalTPSMaskGroup: 0
     - s_end_DepthAlpha: 0
     - s_end_DepthFXColorEmission: 0
@@ -3190,15 +3222,19 @@ Material:
     - s_start_Decal0ChannelSeparation: 0
     - s_start_Decal0GlobalMasking: 0
     - s_start_Decal0HueShift: 0
+    - s_start_Decal0Video: 0
     - s_start_Decal1ChannelSeparation: 0
     - s_start_Decal1GlobalMasking: 0
     - s_start_Decal1HueShift: 0
+    - s_start_Decal1Video: 0
     - s_start_Decal2ChannelSeparation: 0
     - s_start_Decal2GlobalMasking: 0
     - s_start_Decal2HueShift: 0
+    - s_start_Decal2Video: 0
     - s_start_Decal3ChannelSeparation: 0
     - s_start_Decal3GlobalMasking: 0
     - s_start_Decal3HueShift: 0
+    - s_start_Decal3Video: 0
     - s_start_DecalTPSMaskGroup: 0
     - s_start_DepthAlpha: 0
     - s_start_DepthFXColorEmission: 0
@@ -3736,15 +3772,15 @@ Material:
     - _Set_HighColorMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _Set_Rim2LightMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _Set_RimLightMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Shadow2ndColor: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 1}
+    - _Shadow2ndColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     - _Shadow2ndColorTexPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Shadow3rdColor: {r: 0.12156863, g: 0.12156863, b: 0.12156863, a: 1}
+    - _Shadow3rdColor: {r: 0.49803922, g: 0.49803922, b: 0.49803922, a: 1}
     - _Shadow3rdColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowAOShift: {r: 0, g: 1, b: 0, a: 1}
     - _ShadowAOShift2: {r: 0, g: 1, b: 0, a: 1}
-    - _ShadowBorderColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowBorderColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowBorderMaskPan: {r: 0, g: 0, b: 0, a: 0}
-    - _ShadowColor: {r: 0.58431375, g: 0.58431375, b: 0.58431375, a: 1}
+    - _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShadowColorTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _SkinThicknessMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _SphericalDissolveCenter: {r: 0, g: 0, b: 0, a: 1}
