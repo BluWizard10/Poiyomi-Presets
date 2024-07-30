@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline AudioLink
+  m_Name: Musical Glitter
   m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -19,26 +19,58 @@ Material:
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
+  - _SUNDISK_SIMPLE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
+    RenderType: Opaque
     _AudioLinkAnimToggleAnimated: 1
     _AudioLinkAnimToggle_isPreset: true
-    _AudioLinkOutlineColorBand_isPreset: true
-    _AudioLinkOutlineColorMod_isPreset: true
-    _AudioLinkOutlineColor_isPreset: true
-    _AudioLinkOutlineEmissionBand_isPreset: true
-    _AudioLinkOutlineEmission_isPreset: true
-    _AudioLinkOutlineSizeBand_isPreset: true
-    _AudioLinkOutlineSize_isPreset: true
     _EnableAudioLink_isPreset: true
-    _EnableOutlines_isPreset: true
-    _OutlineALColorEnabled_isPreset: true
+    _GlitterALAlphaAddBand_isPreset: true
+    _GlitterALAlphaAdd_isPreset: true
+    _GlitterALChronoRotationSpeedBand_isPreset: true
+    _GlitterALChronoRotationSpeedType_isPreset: true
+    _GlitterALChronoRotationSpeed_isPreset: true
+    _GlitterALChronoSparkleSpeedBand_isPreset: true
+    _GlitterALChronoSparkleSpeedType_isPreset: true
+    _GlitterALChronoSparkleSpeed_isPreset: true
+    _GlitterALEnabled_isPreset: true
+    _GlitterALMaxBrightnessAdd_isPreset: true
+    _GlitterALMaxBrightnessBand_isPreset: true
+    _GlitterALSizeAddBand_isPreset: true
+    _GlitterALSizeAdd_isPreset: true
+    _GlitterAngleRange_isPreset: true
+    _GlitterBias_isPreset: true
+    _GlitterBlendType_isPreset: true
+    _GlitterBrightness_isPreset: true
+    _GlitterColorMap_isPreset: true
+    _GlitterColor_isPreset: true
+    _GlitterContrast_isPreset: true
+    _GlitterEnable_isPreset: true
+    _GlitterFrequency_isPreset: true
+    _GlitterJaggyFix_isPreset: true
+    _GlitterLayers_isPreset: true
+    _GlitterMinBrightness_isPreset: true
+    _GlitterMode_isPreset: true
+    _GlitterRandomLocation_isPreset: true
+    _GlitterRandomRotationSpeed_isPreset: true
+    _GlitterRandomRotation_isPreset: true
+    _GlitterRandomSize_isPreset: true
+    _GlitterShape_isPreset: true
+    _GlitterSize_isPreset: true
+    _GlitterSpeed_isPreset: true
+    _GlitterTextureRotation_isPreset: true
+    _GlitterTexture_isPreset: true
+    _GlitterUVPanning_isPreset: true
+    _GlitterUV_isPreset: true
+    _GlitterUseNormals_isPreset: true
+    _GlitterUseSurfaceColor_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/9.0/AudioLink/Outline Color Change Hue
+    presetName: BluWizard's Presets/9.0/AudioLink/Musical Glitter
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -257,7 +289,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlitterTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 718c1ae717628814b952cc22b156501d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlobalMaskTexture0:
@@ -646,7 +678,6 @@ Material:
     - _AlphaGlobalMask: 0
     - _AlphaGlobalMaskBlendType: 2
     - _AlphaMaskInvert: 0
-    - _AlphaMaskMode: 2
     - _AlphaMaskScale: 1
     - _AlphaMaskUV: 0
     - _AlphaMaskValue: 0
@@ -680,8 +711,6 @@ Material:
     - _Aniso1ToonMode: 0
     - _AnisoAdd: 1
     - _AnisoColorMapUV: 0
-    - _AnisoDebugMode: 0
-    - _AnisoDebugToggle: 0
     - _AnisoGlobalMask: 0
     - _AnisoGlobalMaskBlendType: 2
     - _AnisoHideInShadow: 1
@@ -892,7 +921,7 @@ Material:
     - _CubeMapBlendAmount: 1
     - _CubeMapBrightness: 0
     - _CubeMapColorThemeIndex: 0
-    - _CubeMapContrast: 0
+    - _CubeMapContrast: 1
     - _CubeMapEmissionStrength: 0
     - _CubeMapEnabled: 0
     - _CubeMapHueShift: 0
@@ -1084,9 +1113,9 @@ Material:
     - _DepthBulgeWarning: 0
     - _DepthColorBlendMode: 0
     - _DepthColorMaxDepth: 1
-    - _DepthColorMaxValue: 1
+    - _DepthColorMaxValue: 0
     - _DepthColorMinDepth: 0
-    - _DepthColorMinValue: 0
+    - _DepthColorMinValue: 1
     - _DepthColorThemeIndex: 0
     - _DepthColorToggle: 0
     - _DepthEmissionStrength: 0
@@ -1320,7 +1349,7 @@ Material:
     - _EnableGITDEmission2: 0
     - _EnableGITDEmission3: 0
     - _EnableMirrorOptions: 0
-    - _EnableOutlines: 1
+    - _EnableOutlines: 0
     - _EnablePathing: 0
     - _EnableRim2Lighting: 0
     - _EnableRimLighting: 0
@@ -1399,12 +1428,12 @@ Material:
     - _GlitterALChronoRotationSpeed: 0
     - _GlitterALChronoRotationSpeedBand: 0
     - _GlitterALChronoRotationSpeedType: 0
-    - _GlitterALChronoSparkleSpeed: 0
+    - _GlitterALChronoSparkleSpeed: 0.05
     - _GlitterALChronoSparkleSpeedBand: 0
-    - _GlitterALChronoSparkleSpeedType: 0
-    - _GlitterALEnabled: 0
+    - _GlitterALChronoSparkleSpeedType: 1
+    - _GlitterALEnabled: 1
     - _GlitterALMaxBrightnessBand: 0
-    - _GlitterALSizeAddBand: 0
+    - _GlitterALSizeAddBand: 2
     - _GlitterAngleRange: 90
     - _GlitterBias: 0.8
     - _GlitterBlendType: 0
@@ -1413,15 +1442,14 @@ Material:
     - _GlitterColorMapUV: 0
     - _GlitterColorThemeIndex: 0
     - _GlitterContrast: 300
-    - _GlitterEnable: 0
-    - _GlitterFrequency: 300
+    - _GlitterEnable: 1
+    - _GlitterFrequency: 50
     - _GlitterHideInShadow: 0
     - _GlitterHueShift: 0
     - _GlitterHueShiftEnabled: 0
     - _GlitterHueShiftSpeed: 0
     - _GlitterJaggyFix: 0
-    - _GlitterJitter: 1
-    - _GlitterLayers: 2
+    - _GlitterLayers: 3
     - _GlitterMaskChannel: 0
     - _GlitterMaskGlobalMask: 0
     - _GlitterMaskGlobalMaskBlendType: 2
@@ -1431,15 +1459,15 @@ Material:
     - _GlitterMode: 0
     - _GlitterRandomColors: 0
     - _GlitterRandomLocation: 1
-    - _GlitterRandomRotation: 0
+    - _GlitterRandomRotation: 1
     - _GlitterRandomSize: 0
     - _GlitterScaleWithLighting: 0
-    - _GlitterShape: 0
-    - _GlitterSize: 0.3
-    - _GlitterSpeed: 10
+    - _GlitterShape: 1
+    - _GlitterSize: 0
+    - _GlitterSpeed: 20
     - _GlitterTextureRotation: 0
     - _GlitterUV: 0
-    - _GlitterUseNormals: 0
+    - _GlitterUseNormals: 0.3
     - _GlitterUseSurfaceColor: 0
     - _GlobalMaskBackface_0: 0
     - _GlobalMaskBackface_1: 0
@@ -1775,7 +1803,7 @@ Material:
     - _LightingIndirectUsesNormals: 0
     - _LightingMapMode: 0
     - _LightingMinLightBrightness: 0
-    - _LightingMirrorVertexLightingEnabled: 0
+    - _LightingMirrorVertexLightingEnabled: 1
     - _LightingMode: 5
     - _LightingMonochromatic: 0
     - _LightingMulitlayerNonLinear: 1
@@ -2049,7 +2077,7 @@ Material:
     - _OffsetFactor: 0
     - _OffsetUnits: 0
     - _Offset_Z: 0
-    - _OutlineALColorEnabled: 1
+    - _OutlineALColorEnabled: 0
     - _OutlineAlphaDistanceFade: 0
     - _OutlineAlphaDistanceFadeMax: 0
     - _OutlineAlphaDistanceFadeMaxAlpha: 1
@@ -2066,7 +2094,7 @@ Material:
     - _OutlineExpansionMode: 1
     - _OutlineFixWidth: 0.5
     - _OutlineFixedSize: 1
-    - _OutlineHueOffsetSpeed: 2
+    - _OutlineHueOffsetSpeed: 0
     - _OutlineHueShift: 0
     - _OutlineLit: 1
     - _OutlineMaskChannel: 0
@@ -2662,14 +2690,13 @@ Material:
     - _VoronoiType: 1
     - _ZTest: 4
     - _ZWrite: 1
-    - _glitterFrequencyLinearEmissive: 20
     - footer_discord: 0
     - footer_github: 0
     - footer_patreon: 0
     - footer_twitter: 0
     - footer_youtube: 0
     - m_AudioLinkCategory: 1
-    - m_OutlineCategory: 1
+    - m_OutlineCategory: 0
     - m_end_ALDecalSpectrum: 0
     - m_end_ALVolumeColor: 0
     - m_end_Alpha: 0
@@ -2697,7 +2724,6 @@ Material:
     - m_end_FXProximityColor: 0
     - m_end_FlipbookAudioLink: 0
     - m_end_Gameboy: 0
-    - m_end_GlitterRandomStuff: 0
     - m_end_GlobalMask: 0
     - m_end_GlobalMaskDistanceM_0: 0
     - m_end_GlobalMaskDistanceM_1: 0
@@ -2812,8 +2838,8 @@ Material:
     - m_lightingCategory: 0
     - m_mainCategory: 0
     - m_modifierCategory: 0
-    - m_renderingCategory: 1
-    - m_specialFXCategory: 0
+    - m_renderingCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -2841,7 +2867,6 @@ Material:
     - m_start_FXProximityColor: 0
     - m_start_FlipbookAudioLink: 0
     - m_start_Gameboy: 0
-    - m_start_GlitterRandomStuff: 0
     - m_start_GlobalMask: 0
     - m_start_GlobalMaskDistanceM_0: 0
     - m_start_GlobalMaskDistanceM_1: 0
@@ -2877,7 +2902,7 @@ Material:
     - m_start_Matcap2: 0
     - m_start_Matcap3: 0
     - m_start_Matcap4: 0
-    - m_start_OutlineAudioLink: 1
+    - m_start_OutlineAudioLink: 0
     - m_start_OutlineStencil: 0
     - m_start_OutlineStencilPassBackOptions: 0
     - m_start_OutlineStencilPassFrontOptions: 0
@@ -2927,7 +2952,7 @@ Material:
     - m_start_emission3Options: 0
     - m_start_emissionOptions: 0
     - m_start_flipBook: 0
-    - m_start_glitter: 0
+    - m_start_glitter: 1
     - m_start_internalparallax: 0
     - m_start_matcap: 0
     - m_start_mirrorOptions: 0
@@ -2965,7 +2990,6 @@ Material:
     - s_end_AlphaFresnel: 0
     - s_end_AlphaToCoverage: 0
     - s_end_AnisoBottomLayer: 0
-    - s_end_AnisoDebug: 0
     - s_end_AnisoTopLayer: 1
     - s_end_AudioLinkBandOverrides: 0
     - s_end_BRDFTPSMaskGroup: 0
@@ -3084,7 +3108,6 @@ Material:
     - s_end_MatcapSmoothness: 0
     - s_end_MatcapTPSMaskGroup: 0
     - s_end_MirrorTexture: 0
-    - s_end_MultilayerMath1stBorder: 1
     - s_end_MultilayerMath1stLayer: 1
     - s_end_MultilayerMath2ndLayer: 0
     - s_end_MultilayerMath3rdLayer: 0
@@ -3162,7 +3185,6 @@ Material:
     - s_start_AlphaFresnel: 0
     - s_start_AlphaToCoverage: 0
     - s_start_AnisoBottomLayer: 0
-    - s_start_AnisoDebug: 0
     - s_start_AnisoTopLayer: 1
     - s_start_AudioLinkBandOverrides: 1
     - s_start_BRDFTPSMaskGroup: 0
@@ -3234,12 +3256,12 @@ Material:
     - s_start_FlipbookHueShift: 0
     - s_start_FlipbookManualFrameControl: 0
     - s_start_FlipbookStartAndEnd: 0
-    - s_start_GlitterAudioLink: 0
+    - s_start_GlitterAudioLink: 1
     - s_start_GlitterColorAndShape: 1
     - s_start_GlitterHueShiftSection: 0
-    - s_start_GlitterMask: 0
+    - s_start_GlitterMask: 1
     - s_start_GlitterPositionSize: 1
-    - s_start_GlitterRotationSection: 0
+    - s_start_GlitterRotationSection: 1
     - s_start_GlitterSparkleControl: 1
     - s_start_GlobalMaskOptionsForceToggles: 0
     - s_start_GlobalMaskOptionsMinMaxSliders: 0
@@ -3288,7 +3310,7 @@ Material:
     - s_start_MultilayerMathBorderMap: 0
     - s_start_OutlineAlphaDistanceFade: 0
     - s_start_OutlineColorAdjust: 0
-    - s_start_OutlineFixedSize: 1
+    - s_start_OutlineFixedSize: 0
     - s_start_OutlineLighting: 0
     - s_start_OutlineRenderingOptions: 0
     - s_start_PBRSecondSpecular: 0
@@ -3344,7 +3366,7 @@ Material:
     - s_start_matcap2ApplyToAlpha: 0
     - s_start_matcap3ApplyToAlpha: 0
     - s_start_matcapApplyToAlpha: 0
-    - s_start_outline_al_color: 1
+    - s_start_outline_al_color: 0
     - s_start_vertexRounding: 0
     - s_start_vertexRoundingAL: 0
     - shader_is_using_thry_editor: 69
@@ -3414,9 +3436,9 @@ Material:
     - _AudioLinkFlipbookEmission: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkFlipbookFrame: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkFlipbookScale: {r: 0, g: 0, b: 0, a: 0}
-    - _AudioLinkOutlineColor: {r: 0, g: 0.57254905, b: 0.8509804, a: 1}
+    - _AudioLinkOutlineColor: {r: 1, g: 1, b: 1, a: 1}
     - _AudioLinkOutlineColorMod: {r: 0, g: 1, b: 0, a: 0}
-    - _AudioLinkOutlineEmission: {r: 0, g: 14, b: 0, a: 0}
+    - _AudioLinkOutlineEmission: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkOutlineSize: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkPathEmissionAddA: {r: 0, g: 0, b: 0, a: 1}
     - _AudioLinkPathEmissionAddB: {r: 0, g: 0, b: 0, a: 1}
@@ -3536,16 +3558,14 @@ Material:
     - _FlipbookTexArrayPan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALAlphaAdd: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterALMaxBrightnessAdd: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterALSizeAdd: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlitterALSizeAdd: {r: 0, g: 0.3, b: 0, a: 0}
+    - _GlitterColor: {r: 0, g: 1.0055208, b: 2.6701574, a: 1}
     - _GlitterColorMapPan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterMinMaxBrightness: {r: 0.8, g: 1, b: 0, a: 1}
     - _GlitterMinMaxSaturation: {r: 0.8, g: 1, b: 0, a: 1}
     - _GlitterMinMaxSize: {r: 0.1, g: 0.5, b: 0, a: 1}
-    - _GlitterPan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterRandomRotationSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _GlitterTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterUVPanning: {r: 0, g: 0, b: 0, a: 0}
     - _GlobalMaskMinMaxSlider_0: {r: 0, g: 1, b: 0, a: 1}
     - _GlobalMaskMinMaxSlider_1: {r: 0, g: 1, b: 0, a: 1}
@@ -3610,7 +3630,7 @@ Material:
     - _LightingShadowMasksPan: {r: 0, g: 0, b: 0, a: 0}
     - _LightingWrappedColor: {r: 1, g: 1, b: 1, a: 1}
     - _LightngForcedDirection: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColorAdjustTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MainTexPan: {r: 0, g: 0, b: 0, a: 0}
     - _MatCap2ndBlendUV1: {r: 0, g: 0, b: 0, a: 0}
@@ -3645,7 +3665,7 @@ Material:
     - _MatcapColor: {r: 1, g: 1, b: 1, a: 1}
     - _MatcapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _MatcapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _MirrorColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MirrorColor: {r: 1, g: 1, b: 1, a: 1}
     - _MirrorTexturePan: {r: 0, g: 0, b: 0, a: 0}
     - _MochieMetallicMapsPan: {r: 0, g: 0, b: 0, a: 0}
     - _MochieMetallicMasksPan: {r: 0, g: 0, b: 0, a: 0}

@@ -1,3 +1,6 @@
+# v1.7.1
+- Added `9.0/AudioLink/Musical Glitter`, a pretty neat Glitter AudioLink Preset with an example Shape Texture. By default, it scales the Size Mod with the `High Mid` and drives Chrono Sparkle Speed with the `Bass` band.
+
 # v1.7.0
 - Changed `9.0/Shading/Blu's Shading Setup v6.0` and `9.0/Shading/Blu's Shading Setup v6.0 Outlines Combo` presets to my latest updated setup. Major version increment.
 - Updated `9.0/Shading/Smoothed Mayu Style` preset.
