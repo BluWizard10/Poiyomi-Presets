@@ -1,3 +1,6 @@
+# v1.7.2
+- Added `A` Animated Tag to the `Lighting Multiplier` on each of Blu's Shading Setups.
+
 # v1.7.1
 - Added `9.0/AudioLink/Musical Glitter`, a pretty neat Glitter AudioLink Preset with an example Shape Texture. By default, it scales the Size Mod with the `High Mid` and drives Chrono Sparkle Speed with the `Bass` band.
 
