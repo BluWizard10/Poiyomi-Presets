@@ -13,7 +13,7 @@ This VCC Community Repository is a neat collection of Presets made for Poiyomi T
 - and more!
 
 ### Requirements
-- [Poiyomi Toon v9.0.30 or newer](https://poiyomi.com/#downloads)
+- [Poiyomi Toon v9.0.60 or newer](https://poiyomi.com/#downloads)
 
 ### How To Use
 1. [Add my VPM Repository to the Creator Companion.](https://vpm.bluwizard.net/)
