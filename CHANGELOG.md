@@ -1,3 +1,6 @@
+# [1.8.1]
+- Fixed missing property on `Blu's Wrapped Shading Setup v7.0 Outlines Combo`.
+
 # [1.8.0]
 ## MAJOR UPDATE: All Presets now require Poiyomi Shaders version 9.0.61 or newer in order for these Presets to operate correctly!
 

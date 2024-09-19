@@ -43,6 +43,7 @@ Material:
     _DisableDirectionalInAdd_isPreset: true
     _EnableAudioLink_isPreset: true
     _EnableEnvironmentalRim_isPreset: true
+    _EnableOutlines_isPreset: true
     _EnableRimLighting_isPreset: true
     _FXProximityColorBackFace_isPreset: true
     _FXProximityColorMaxColor_isPreset: true
