@@ -1,3 +1,6 @@
+# [1.8.2]
+- Changed all included Textures' `Mipmap Filtering` from `Box` to `Kaiser`.
+
 # [1.8.1]
 - Fixed missing property on `Blu's Wrapped Shading Setup v7.0 Outlines Combo`.
 
