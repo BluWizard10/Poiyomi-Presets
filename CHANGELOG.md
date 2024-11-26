@@ -1,3 +1,8 @@
+# [1.9.0-beta.1]
+- Added nice Sunset Fallback Cubemap, courtesy of DrBlackRat.
+- Marked as `beta.1` as a safety measure to test this package still works on pre-9.2 versions.
+- New personal Shading Presets added.
+
 # [1.8.2]
 - Changed all included Textures' `Mipmap Filtering` from `Box` to `Kaiser`.
 
