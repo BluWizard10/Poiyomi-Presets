@@ -141,8 +141,7 @@ Material:
     _ShadingEnabled_isPreset: true
     _ShadowStrength_isPreset: true
     isPreset: true
-    presetName: BluWizard's Presets/9.0/Shading/Blu's Wrapped Shading Setup v7.0
-      Outlines
+    presetName: BluWizard's Presets/9.0/Shading/Blu's Wrapped Shading Setup v8.0 Outlines
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
