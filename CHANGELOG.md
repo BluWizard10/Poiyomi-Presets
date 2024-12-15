@@ -1,3 +1,10 @@
+# [1.10.0]
+- Added new Shading Presets. WARNING: These turn off Environmental Rim as I found it to look bad against my intended results.
+  - `9.0/Shading/Blu's MLM Shading Setup v8.0`: A toon shading style using Multilayer Math with a touch of Rim Lighting for depth. Enables Proximity Color as well.
+  - `9.0/Shading/Blu's MLM Shading Setup v8.0 Outlines`: A toon shading style using Multilayer Math with a touch of Rim Lighting for depth. Enables Proximity Color as well. This version turns on Outlines and AudioLink for the Outlines.
+  - `9.0/Shading/Blu's Wrapped Shading Setup v8.0`: A semi-realistic shading style with a touch of Rim Lighting for depth. Enables Proximity Color as well.
+  - `9.0/Shading/Blu's Wrapped Shading Setup v8.0 Outlines`: A semi-realistic shading style with a touch of Rim Lighting for depth. Enables Proximity Color as well. This version turns on Outlines and AudioLink for the Outlines.
+
 # [1.9.0]
 - Test Passed. Official Release.
 
