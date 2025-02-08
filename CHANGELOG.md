@@ -1,3 +1,7 @@
+# [1.11.0]
+- Added `9.0/Shading/Atlas Toon` Preset. A friend sent this one to me.
+- Added missing parameters on some Presets.
+
 # [1.10.0]
 - Added new Shading Presets. WARNING: These turn off Environmental Rim as I found it to look bad against my intended results.
   - `9.0/Shading/Blu's MLM Shading Setup v8.0`: A toon shading style using Multilayer Math with a touch of Rim Lighting for depth. Enables Proximity Color as well.

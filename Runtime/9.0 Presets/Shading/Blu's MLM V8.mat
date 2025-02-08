@@ -85,9 +85,13 @@ Material:
     _Matcap_isPreset: true
     _MultilayerMathBlurMap_isPreset: true
     _PPEmissionMultiplierAnimated: 1
+    _PPEmissionMultiplier_isPreset: true
     _PPFinalColorMultiplierAnimated: 1
+    _PPFinalColorMultiplier_isPreset: true
     _PPLightingAdditionAnimated: 1
+    _PPLightingAddition_isPreset: true
     _PPLightingMultiplierAnimated: 1
+    _PPLightingMultiplier_isPreset: true
     _RimApplyAlphaBlend_isPreset: true
     _RimApplyAlpha_isPreset: true
     _RimApplyGlobalMaskIndex_isPreset: true
@@ -2929,7 +2933,7 @@ Material:
     - m_end_voronoiRandom: 0
     - m_lightingCategory: 1
     - m_mainCategory: 1
-    - m_modifierCategory: 0
+    - m_modifierCategory: 1
     - m_renderingCategory: 1
     - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
@@ -2998,11 +3002,11 @@ Material:
     - m_start_OutlineStencil: 0
     - m_start_OutlineStencilPassBackOptions: 0
     - m_start_OutlineStencilPassFrontOptions: 0
-    - m_start_PPAnimations: 0
+    - m_start_PPAnimations: 1
     - m_start_PathAudioLink: 0
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 1
-    - m_start_PoiPostProcessingCategory: 0
+    - m_start_PoiPostProcessingCategory: 1
     - m_start_PoiShading: 1
     - m_start_PoiUVCategory: 0
     - m_start_RGBMask: 0
