@@ -1,3 +1,7 @@
+# [1.12.0]
+- Added `9.0/Shading/Blu's OYT-Style Wrapped` and `9.0/Shading/Blu's OYT-Style MLM` presets. These were inspired by the shading style I liked in the video game, On Your Tail.
+- Added `9.0/Shading/Blu's Outlines Setup`, so that my optional Outlines settings doesn't have to be included in my Shading presets.
+
 # [1.11.0]
 - Added `9.0/Shading/Atlas Toon` Preset. A friend sent this one to me.
 - Added missing parameters on some Presets.
