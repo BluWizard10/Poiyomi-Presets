@@ -1,6 +1,11 @@
+# [1.14.0]
+- New 9.1 Presets Category. **REQUIRES POIYOMI TOON 9.1.20 OR NEWER**
+  - Migrated `Add Fallback Reflection` and `Add Fallback Reflection [Sunset]` under `9.0/Quick Fixes` into `9.1/Quick Fixes`. They will now insert the Fallback Cubemap into `LilReflections`.
+  - Migrated `Blu's OYT-Style Wrapped` and `Blu's OYT-Style MLM` under `9.0/Shading` into `9.1/Shading` in order to support 9.1.
+
 # [1.12.0]
-- Added `9.0/Shading/Blu's OYT-Style Wrapped` and `9.0/Shading/Blu's OYT-Style MLM` presets. These were inspired by the shading style I liked in the video game, On Your Tail.
-- Added `9.0/Shading/Blu's Outlines Setup`, so that my optional Outlines settings doesn't have to be included in my Shading presets.
+- Added `9.1/Shading/Blu's OYT-Style Wrapped` and `9.1/Shading/Blu's OYT-Style MLM` presets. These were inspired by the shading style I liked in the video game, On Your Tail.
+- Added `9.1/Shading/Blu's Outlines Setup`, so that my optional Outlines settings doesn't have to be included in my Shading presets.
 
 # [1.11.0]
 - Added `9.0/Shading/Atlas Toon` Preset. A friend sent this one to me.
