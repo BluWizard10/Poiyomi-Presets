@@ -1,3 +1,8 @@
+# [2.0.0]
+- All Presets rebuilt, compatible only with 9.2.55 or newer.
+  - DUE TO THRY EDITOR CHANGES, THIS UPDATE IS INCOMPATIBLE WITH OLDER VERSIONS!! **REQUIRES POIYOMI TOON 9.2.55 OR NEWER**
+- No longer sorted by version number. All Presets should be both backwards-compatible and forward-compatible.
+
 # [1.14.0]
 - New 9.1 Presets Category. **REQUIRES POIYOMI TOON 9.1.20 OR NEWER**
   - Migrated `Add Fallback Reflection` and `Add Fallback Reflection [Sunset]` under `9.0/Quick Fixes` into `9.1/Quick Fixes`. They will now insert the Fallback Cubemap into `LilReflections`.
