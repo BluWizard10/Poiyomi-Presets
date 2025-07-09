@@ -1,3 +1,6 @@
+# [2.0.1]
+- Removed 2 irrelevant Presets to fix a bug.
+
 # [2.0.0]
 - All Presets rebuilt, compatible only with 9.2.55 or newer.
   - DUE TO THRY EDITOR CHANGES, THIS UPDATE IS INCOMPATIBLE WITH OLDER VERSIONS!! **REQUIRES POIYOMI TOON 9.2.55 OR NEWER**
