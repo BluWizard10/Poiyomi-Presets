@@ -2251,7 +2251,7 @@ Material:
     - _MatcapHueShiftColorSpace: 0
     - _MatcapHueShiftEnabled: 0
     - _MatcapHueShiftSpeed: 0
-    - _MatcapIntensity: 1
+    - _MatcapIntensity: 0.54
     - _MatcapLightColorMix: 0
     - _MatcapLightMask: 0
     - _MatcapMaskChannel: 0

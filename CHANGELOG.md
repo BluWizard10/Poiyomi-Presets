@@ -1,3 +1,6 @@
+# [2.0.2]
+- Fixed value in OYT-Style Presets.
+
 # [2.0.1]
 - Removed 2 irrelevant Presets to fix a bug.
 
