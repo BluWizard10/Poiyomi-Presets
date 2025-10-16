@@ -8,17 +8,17 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Sacred's 9.0 Shading
-  m_Shader: {fileID: 4800000, guid: 23f6705aff8bf964c87bfb3dd66ab345, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_WRAPPED
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -662,6 +662,7 @@ Material:
     - _AlphaFresnelWidth: 0.5
     - _AlphaGlobalMask: 0
     - _AlphaGlobalMaskBlendType: 2
+    - _AlphaMaskBlendStrength: 1
     - _AlphaMaskInvert: 0
     - _AlphaMaskScale: 1
     - _AlphaMaskUV: 0
@@ -818,6 +819,7 @@ Material:
     - _BackFaceMaskChannel: 0
     - _BackFaceMaskUV: 0
     - _BackFaceReplaceAlpha: 0
+    - _BackFaceShiftColorSpace: 0
     - _BackFaceTextureUV: 0
     - _BacklightBackfaceMask: 1
     - _BacklightBlur: 0.05
@@ -1044,6 +1046,10 @@ Material:
     - _DecalHueShift1: 0
     - _DecalHueShift2: 0
     - _DecalHueShift3: 0
+    - _DecalHueShiftColorSpace: 0
+    - _DecalHueShiftColorSpace1: 0
+    - _DecalHueShiftColorSpace2: 0
+    - _DecalHueShiftColorSpace3: 0
     - _DecalHueShiftEnabled: 0
     - _DecalHueShiftEnabled1: 0
     - _DecalHueShiftEnabled2: 0
@@ -1053,6 +1059,10 @@ Material:
     - _DecalHueShiftSpeed2: 0
     - _DecalHueShiftSpeed3: 0
     - _DecalMaskUV: 0
+    - _DecalMirroredUVMode: 0
+    - _DecalMirroredUVMode1: 0
+    - _DecalMirroredUVMode2: 0
+    - _DecalMirroredUVMode3: 0
     - _DecalOverrideAlpha: 0
     - _DecalOverrideAlpha1: 0
     - _DecalOverrideAlpha2: 0
@@ -1077,6 +1087,10 @@ Material:
     - _DecalRotationSpeed1: 0
     - _DecalRotationSpeed2: 0
     - _DecalRotationSpeed3: 0
+    - _DecalSymmetryMode: 0
+    - _DecalSymmetryMode1: 0
+    - _DecalSymmetryMode2: 0
+    - _DecalSymmetryMode3: 0
     - _DecalTPSDepthMaskEnabled: 0
     - _DecalTexture1UV: 0
     - _DecalTexture2UV: 0
@@ -1160,10 +1174,12 @@ Material:
     - _DissolveEdgeEmission: 0
     - _DissolveEdgeHardness: 0.5
     - _DissolveEdgeHueShift: 0
+    - _DissolveEdgeHueShiftColorSpace: 0
     - _DissolveEdgeHueShiftEnabled: 0
     - _DissolveEdgeHueShiftSpeed: 0
     - _DissolveEdgeWidth: 0.025
     - _DissolveHueShift: 0
+    - _DissolveHueShiftColorSpace: 0
     - _DissolveHueShiftEnabled: 0
     - _DissolveHueShiftSpeed: 0
     - _DissolveInverseApplyGlobalMaskBlendType: 0
@@ -1234,6 +1250,10 @@ Material:
     - _EmissionHueShift1: 0
     - _EmissionHueShift2: 0
     - _EmissionHueShift3: 0
+    - _EmissionHueShiftColorSpace: 0
+    - _EmissionHueShiftColorSpace1: 0
+    - _EmissionHueShiftColorSpace2: 0
+    - _EmissionHueShiftColorSpace3: 0
     - _EmissionHueShiftEnabled: 0
     - _EmissionHueShiftEnabled1: 0
     - _EmissionHueShiftEnabled2: 0
@@ -1368,6 +1388,7 @@ Material:
     - _FlipbookFPS: 30
     - _FlipbookFrameOffset: 0
     - _FlipbookHueShift: 0
+    - _FlipbookHueShiftColorSpace: 0
     - _FlipbookHueShiftEnabled: 0
     - _FlipbookHueShiftSpeed: 0
     - _FlipbookIntensityControlsAlpha: 0
@@ -1409,6 +1430,7 @@ Material:
     - _GITDEWorldOrMesh1: 0
     - _GITDEWorldOrMesh2: 0
     - _GITDEWorldOrMesh3: 0
+    - _GlitteHueShiftColorSpace: 0
     - _GlitterALAlphaAddBand: 0
     - _GlitterALChronoRotationSpeed: 0
     - _GlitterALChronoRotationSpeedBand: 0
@@ -1818,6 +1840,7 @@ Material:
     - _MainHueGlobalMask: 0
     - _MainHueGlobalMaskBlendType: 2
     - _MainHueShift: 0
+    - _MainHueShiftColorSpace: 0
     - _MainHueShiftReplace: 1
     - _MainHueShiftSpeed: 0
     - _MainHueShiftToggle: 0
@@ -1871,6 +1894,7 @@ Material:
     - _Matcap2EmissionStrength: 0
     - _Matcap2Enable: 0
     - _Matcap2HueShift: 0
+    - _Matcap2HueShiftColorSpace: 0
     - _Matcap2HueShiftEnabled: 0
     - _Matcap2HueShiftSpeed: 0
     - _Matcap2Intensity: 1
@@ -1917,6 +1941,7 @@ Material:
     - _Matcap3EmissionStrength: 0
     - _Matcap3Enable: 0
     - _Matcap3HueShift: 0
+    - _Matcap3HueShiftColorSpace: 0
     - _Matcap3HueShiftEnabled: 0
     - _Matcap3HueShiftSpeed: 0
     - _Matcap3Intensity: 1
@@ -1955,6 +1980,7 @@ Material:
     - _Matcap4EmissionStrength: 0
     - _Matcap4Enable: 0
     - _Matcap4HueShift: 0
+    - _Matcap4HueShiftColorSpace: 0
     - _Matcap4HueShiftEnabled: 0
     - _Matcap4HueShiftSpeed: 0
     - _Matcap4Intensity: 1
@@ -1991,6 +2017,7 @@ Material:
     - _MatcapEmissionStrength: 0
     - _MatcapEnable: 0
     - _MatcapHueShift: 0
+    - _MatcapHueShiftColorSpace: 0
     - _MatcapHueShiftEnabled: 0
     - _MatcapHueShiftSpeed: 0
     - _MatcapIntensity: 1
@@ -2112,6 +2139,7 @@ Material:
     - _OutlineVertexColorMask: 0
     - _OutlineVertexColorMaskStrength: 1
     - _OutlineZTest: 4
+    - _OutlineZWrite: 1
     - _OutlinesMaxDistance: 1
     - _PBRNormalSelect: 1
     - _PBRSplitMaskSample: 0
@@ -2123,6 +2151,7 @@ Material:
     - _PPHDR: 0
     - _PPHelp: 0
     - _PPHue: 0
+    - _PPHueShiftColorSpace: 0
     - _PPLightingAddition: 0
     - _PPLightingMultiplier: 1
     - _PPLightness: 0
@@ -2323,6 +2352,7 @@ Material:
     - _Rim2GlobalMask: 0
     - _Rim2GlobalMaskBlendType: 2
     - _Rim2HueShift: 0
+    - _Rim2HueShiftColorSpace: 0
     - _Rim2HueShiftEnabled: 0
     - _Rim2HueShiftSpeed: 0
     - _Rim2IndirBlur: 0.1
@@ -2379,6 +2409,7 @@ Material:
     - _RimGlobalMask: 0
     - _RimGlobalMaskBlendType: 2
     - _RimHueShift: 0
+    - _RimHueShiftColorSpace: 0
     - _RimHueShiftEnabled: 0
     - _RimHueShiftSpeed: 0
     - _RimIndirBlur: 0.1
@@ -2501,6 +2532,7 @@ Material:
     - _StylizedSpecularFeather: 0
     - _StylizedSpecularIgnoreNormal: 0
     - _StylizedSpecularIgnoreShadow: 0
+    - _StylizedSpecularInvertMask: 0
     - _StylizedSpecularStrength: 1
     - _SubsurfaceScattering: 0
     - _TextEnabled: 0
@@ -2673,6 +2705,7 @@ Material:
     - _VoronoiScale: 5
     - _VoronoiSpace: 0
     - _VoronoiType: 1
+    - _ZClip: 1
     - _ZTest: 4
     - _ZWrite: 1
     - footer_discord: 0
