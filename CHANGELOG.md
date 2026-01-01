@@ -1,3 +1,7 @@
+# [2.0.4]
+- Added `Balanced Wrapped Style` Shading Presets, reflecting my recent preferred shading setup.
+- Added `Mayu Style v3.5` Shading Preset.
+
 # [2.0.3]
 - All Materials switched to Standard in order to prevent the 64 Slot Crash.
   - Thanks to Unity preserving data in .mat files regardless of shader, the Preset properties written in the file are still exposed to Thry Editor's Preset system.
