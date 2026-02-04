@@ -1,3 +1,6 @@
+# [2.0.5]
+- Fixed Workflow Dispatch to exclude .git directories.
+
 # [2.0.4]
 - Added `Balanced Wrapped Style` Shading Presets, reflecting my recent preferred shading setup.
 - Added `Mayu Style v3.5` Shading Preset.
