@@ -1,3 +1,7 @@
+# [2.0.6]
+- Removed LTCGI from all Presets.
+  - *pi no longer recommends LTCGI to be enabled on Avatars for performance reasons.*
+
 # [2.0.5]
 - Fixed Workflow Dispatch to exclude .git directories.
 
