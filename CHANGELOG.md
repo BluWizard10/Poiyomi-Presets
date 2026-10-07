@@ -1,3 +1,6 @@
+# [2.1.0]
+- All presets updated to support Poiyomi 10.0. **REQUIRES POIYOMI TOON 10.0.24 OR NEWER**
+
 # [2.0.6]
 - Removed LTCGI from all Presets.
   - *pi no longer recommends LTCGI to be enabled on Avatars for performance reasons.*
